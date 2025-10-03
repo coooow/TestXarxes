@@ -1,0 +1,505 @@
+{
+    "tema1":[
+        
+  {
+    "id": 1,
+    "question": "What is the purpose of the OSI model in networking?",
+    "answers": [
+      {"id": 1, "answer": "To define an architecture for network protocols.", "correct": true},
+      {"id": 2, "answer": "To establish a framework for software development.", "correct": false},
+      {"id": 3, "answer": "To specify the physical network infrastructure.", "correct": false},
+      {"id": 4, "answer": "To manage network security.", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which layer of the OSI model is responsible for end-to-end communication and provides services like encryption and decryption?",
+    "answers": [
+      {"id": 1, "answer": "Transport layer.", "correct": false},
+      {"id": 2, "answer": "Presentation layer.", "correct": true},
+      {"id": 3, "answer": "Application layer.", "correct": false},
+      {"id": 4, "answer": "Session layer.", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the primary function of the Network Layer in the OSI model?",
+    "answers": [
+      {"id": 1, "answer": "Error detection and correction.", "correct": false},
+      {"id": 2, "answer": "Data link control.", "correct": false},
+      {"id": 3, "answer": "Routing and addressing.", "correct": true},
+      {"id": 4, "answer": "Session establishment and termination.", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What layer does the ARP protocol operate in and what is its main purpose?",
+    "answers": [
+      {"id": 1, "answer": "Layer-1, map IP addresses to MAC addresses.", "correct": false},
+      {"id": 2, "answer": "Layer-2, discover the default gateway.", "correct": false},
+      {"id": 3, "answer": "Layer-3, resolve domain names to IP addresses.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Which layer does a router operate in, and what is its main function?",
+    "answers": [
+      {"id": 1, "answer": "Layer-2, connects devices within the same network.", "correct": false},
+      {"id": 2, "answer": "Layer-2, forwards packets between different networks.", "correct": false},
+      {"id": 3, "answer": "Layer-3, connects devices within the same network.", "correct": false},
+      {"id": 4, "answer": "Layer-3, forwards packets between different networks.", "correct": true}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What layer does the ICMP protocol operate in, and what is the purpose of the protocol?",
+    "answers": [
+      {"id": 1, "answer": "Layer-2, encapsulate data for transmission.", "correct": false},
+      {"id": 2, "answer": "Layer-3, manage network traffic congestion.", "correct": false},
+      {"id": 3, "answer": "Layer-3, diagnose network-related issues.", "correct": true},
+      {"id": 4, "answer": "Layer-4, diagnose network-related issues.", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is only a layer-2 device in an Ethernet-based computer network?",
+    "answers": [
+      {"id": 1, "answer": "Router.", "correct": false},
+      {"id": 2, "answer": "Switch.", "correct": true},
+      {"id": 3, "answer": "Hub.", "correct": false},
+      {"id": 4, "answer": "Firewall.", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of DHCP protocol in a LAN (Local Area Network)?",
+    "answers": [
+      {"id": 1, "answer": "To dynamically manage assignment of layer-2 addresses (MAC) to hosts.", "correct": false},
+      {"id": 2, "answer": "To dynamically manage assignment of layer-3 addresses (IP) to hosts.", "correct": true},
+      {"id": 3, "answer": "To dynamically manage assignment of layer-4 addresses (ports) to hosts.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which protocol in the TCP/IP stack is responsible for ensuring that data packets are delivered reliably and in order?",
+    "answers": [
+      {"id": 1, "answer": "ICMP.", "correct": false},
+      {"id": 2, "answer": "ARP.", "correct": false},
+      {"id": 3, "answer": "UPD.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What layer in the TCP/IP model does the UDP protocol operate in and what is its main purpose?",
+    "answers": [
+      {"id": 1, "answer": "Layer-2, provide application multiplexing.", "correct": false},
+      {"id": 2, "answer": "Layer-3, provide reliable data transmission.", "correct": false},
+      {"id": 3, "answer": "Layer-4, provide connection-oriented communication.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+    {
+    "id": 11,
+    "question": "Which of the following protocols belong to the Internet layer in the TCP/IP model?",
+    "answers": [
+      {"id": 1, "answer": "HTTP, DNS and DHCP.", "correct": false},
+      {"id": 2, "answer": "TCP and UDP.", "correct": false},
+      {"id": 3, "answer": "IP, ICMP and ARP.", "correct": true},
+      {"id": 4, "answer": "Ethernet and Wi-Fi.", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "When used for computer communications, what is the main benefit of packet switched networks?",
+    "answers": [
+      {"id": 1, "answer": "It does not require a call setup phase prior to data transmission.", "correct": true},
+      {"id": 2, "answer": "It provides a dedicated physical path for data transmission.", "correct": false},
+      {"id": 3, "answer": "It ensures that packets always arrive in the order they are transmitted.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "When considering computer networks, a protocol defines:",
+    "answers": [
+      {"id": 1, "answer": "The message types and the message format that devices exchange.", "correct": true},
+      {"id": 2, "answer": "Only the message types that devices exchange.", "correct": false},
+      {"id": 3, "answer": "Only the message format that devices exchange.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the main organization that standardizes Internet protocols in RFC (Request for Comments) documents?",
+    "answers": [
+      {"id": 1, "answer": "IEEE.", "correct": false},
+      {"id": 2, "answer": "IETF.", "correct": true},
+      {"id": 3, "answer": "IANA.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "In the TCP/IP model, what is the name of the data unit exchanged by hosts at the transport layer?",
+    "answers": [
+      {"id": 1, "answer": "Bits.", "correct": false},
+      {"id": 2, "answer": "Frames.", "correct": false},
+      {"id": 3, "answer": "Datagrams.", "correct": false},
+      {"id": 4, "answer": "Segments.", "correct": true}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "In an IP network, what does the RTT (Round-Trip Time) measure?",
+    "answers": [
+      {"id": 1, "answer": "The time it takes for a packet to travel from the source to the destination, including the transmission, propagation and queueing times.", "correct": false},
+      {"id": 2, "answer": "The time it takes for a packet to travel from the source to the destination and for the acknowledgement to return back, including the transmission, propagation and queueing times.", "correct": true},
+      {"id": 3, "answer": "The time it takes for a packet to travel from the source to the destination, including the time to setup the circuit, the time to transmit the data, and the time to tear-down the circuit.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "In an IPv4 network, what is the length (i.e., number of bits) of the network mask of a Class B address?",
+    "answers": [
+      {"id": 1, "answer": "8 bits.", "correct": false},
+      {"id": 2, "answer": "16 bits.", "correct": true},
+      {"id": 3, "answer": "24 bits.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "In an IPv4 network, in addition to the host address (i.e., 147.83.77.12), what other information has to be configured at the network layer to be able to send packets to another host from a different network (i.e., 8.8.8.8.)?",
+    "answers": [
+      {"id": 1, "answer": "Only the network mask.", "correct": false},
+      {"id": 2, "answer": "The network mask and the gateway address.", "correct": true},
+      {"id": 3, "answer": "The network address, the gateway address and the address of the DNS server.", "correct": false},
+      {"id": 4, "answer": "The address of the DHCP server.", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What of the following IPv4 subnets is used by ISPs (Internet Service Providers) to offer the CG-NAT service?",
+    "answers": [
+      {"id": 1, "answer": "127.0.0.1/32.", "correct": false},
+      {"id": 2, "answer": "100.64.0.0/10.", "correct": true},
+      {"id": 3, "answer": "224.0.0.0/4.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What field in the IPv4 header is used to identify the transport layer protocol that is being carried by the packet (i.e., TCP, UDP or ICMP)?",
+    "answers": [
+      {"id": 1, "answer": "Identifier.", "correct": false},
+      {"id": 2, "answer": "Pointer.", "correct": false},
+      {"id": 3, "answer": "Checksum.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What of the following services is provided by UDP (User Datagram Protocol) at the transport layer?",
+    "answers": [
+      {"id": 1, "answer": "Application multiplexing.", "correct": true},
+      {"id": 2, "answer": "Error recovery.", "correct": false},
+      {"id": 3, "answer": "Flow control.", "correct": false},
+      {"id": 4, "answer": "All of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "question": "At the transport layer, what protocol and port number does the DNS service use?",
+    "answers": [
+      {"id": 1, "answer": "TCP, port 53.", "correct": false},
+      {"id": 2, "answer": "UDP, port 53.", "correct": false},
+      {"id": 3, "answer": "Either TCP or UDP, port 53.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "question": "At the transport layer, what is the length of the source and destination port which allow to multiplex the applications running on the same host?",
+    "answers": [
+      {"id": 1, "answer": "8 bits.", "correct": false},
+      {"id": 2, "answer": "16 bits.", "correct": true},
+      {"id": 3, "answer": "32 bits.", "correct": false},
+      {"id": 4, "answer": "128 bits.", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "question": "At the transport layer, what is the total length of the UDP header?",
+    "answers": [
+      {"id": 1, "answer": "2 bytes.", "correct": false},
+      {"id": 2, "answer": "4 bytes.", "correct": false},
+      {"id": 3, "answer": "8 bytes.", "correct": true},
+      {"id": 4, "answer": "16 bytes.", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Which of the following network protocols does NOT use TCP for reliable delivery of data?",
+    "answers": [
+      {"id": 1, "answer": "HTTP.", "correct": false},
+      {"id": 2, "answer": "ICMP.", "correct": true},
+      {"id": 3, "answer": "SSH.", "correct": false},
+      {"id": 4, "answer": "FTP.", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "question": "When establishing a connection with a remote host, TCP uses the 3-way handshake mechanism. What bits of the TCP header are used by the sender (S) and the receiver (R) during the 3-way handshake?",
+    "answers": [
+      {"id": 1, "answer": "S: SYN, R: ACK, S: ACK.", "correct": false},
+      {"id": 2, "answer": "S: SYN, R: SYN+ACK, S: ACK.", "correct": true},
+      {"id": 3, "answer": "S: SYN, R: SYN, S: FIN.", "correct": false},
+      {"id": 4, "answer": "S: SYN, R: SYN+ACK, S: ACK.", "correct": true}
+    ]
+  },
+  {
+    "id": 27,
+    "question": "During the slow start phase of the credit-based flow control mechanism, TCP x the y every z.",
+    "answers": [
+      {"id": 1, "answer": "x = doubles, y = congestion window, z = RTT.", "correct": true},
+      {"id": 2, "answer": "x = increments by one unit, y = packet buffer, z = second.", "correct": false},
+      {"id": 3, "answer": "x = increments by one unit, y = congestion window, z = RTT.", "correct": false},
+      {"id": 4, "answer": "x = doubles, y = congestion window, z = second.", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "question": "The original Ethernet standard, developed in 1972 at Xerox PARC for Local Area Networks (LANs), provided a data transfer speed of x Mbps over a y cable using a z topology.",
+    "answers": [
+      {"id": 1, "answer": "x = 3, y = coaxial, z = bus.", "correct": true},
+      {"id": 2, "answer": "x = 3, y = UTP, z = star.", "correct": false},
+      {"id": 3, "answer": "x = 10, y = coaxial, z = ring.", "correct": false},
+      {"id": 4, "answer": "x = 10, y = coaxial, z = star.", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "question": "In an Ethernet network, what is the equipment that isolates the collision domain in each physical port, effectively creating a star topology and ensuring that transmissions from different stations cannot collide?",
+    "answers": [
+      {"id": 1, "answer": "Hub.", "correct": false},
+      {"id": 2, "answer": "Switch.", "correct": true},
+      {"id": 3, "answer": "Router.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "question": "In an Ethernet network, what is the length of the MAC address?",
+    "answers": [
+      {"id": 1, "answer": "32 bits.", "correct": false},
+      {"id": 2, "answer": "48 bits.", "correct": true},
+      {"id": 3, "answer": "128 bits.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "question": "A host has a MAC address (ab:cd:ef:12:34:56), as well as an IPv4 address (192.168.100.10/24) and a gateway address (192.168.100.1) configured. If the host executes ’ping 8.8.8.8’, what will be the target protocol (IP) and target hardware (MAC) addresses of the ARP Request message (i.e., not the Ethernet frame)? Assume the ARP table is initially empty.",
+    "answers": [
+      {"id": 1, "answer": "MACd = ab:cd:ef:12:34:56, IPd = 255.255.255.255.", "correct": false},
+      {"id": 2, "answer": "MACd = ff:ff:ff:ff:ff:ff, IPd = 8.8.8.8.", "correct": false},
+      {"id": 3, "answer": "MACd = ff:ff:ff:ff:ff:ff, IPd = 8.8.8.8.", "correct": false},
+      {"id": 4, "answer": "MACd = 00:00:00:00:00:00, IPd = 192.168.100.1.", "correct": true}
+    ]
+  },
+  {
+    "id": 32,
+    "question": "A router receives an IP packet with TTL=1. What is the type and code of the ICMP message that the router will send back to the packet source?",
+    "answers": [
+      {"id": 1, "answer": "The router will send an ICMP packet of Type=0 and Code=0 (Echo reply).", "correct": false},
+      {"id": 2, "answer": "The router will send an ICJMP packet of Type=3 and Code=3 (Destination unreachable).", "correct": false},
+      {"id": 3, "answer": "The router will forward the IP packet to the destination without sending an ICMP packet.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 33,
+    "question": "If a router fails to resolve the data-link layer address of a target host using the ARP protocol to deliver a frame (i.e., direct deliver), what ICMP message does it send back to the origin?",
+    "answers": [
+      {"id": 1, "answer": "The router will send an ICMP packet of Type=0 and Code=0 (Echo reply).", "correct": false},
+      {"id": 2, "answer": "The router will send an ICMP packet of Type=5 and Code=0 (Redirect).", "correct": false},
+      {"id": 3, "answer": "The router will send an ICMP packet of Type=11 and Code=0 (Time exceeded).", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 34,
+    "question": "In IPv4 networks, what protocol is used to automatically configure the host address, network mask, gateway address and DNS servers address, as well as other configuration parameters?",
+    "answers": [
+      {"id": 1, "answer": "ARP.", "correct": false},
+      {"id": 2, "answer": "ICMP.", "correct": false},
+      {"id": 3, "answer": "DHCP.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "question": "What layer of the TCP/IP model does the DHCP protocol operate in? What protocol and source port does the DHCP client use to send packets to the server?",
+    "answers": [
+      {"id": 1, "answer": "Application layer, UDP/67.", "correct": false},
+      {"id": 2, "answer": "Application layer, TCP/68.", "correct": false},
+      {"id": 3, "answer": "Network layer, UDP/68.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 36,
+    "question": "A host has the 01:02:03:04:05:06 MAC address and the DHCP server has the 0a:0b:0c:0d:0e:0f MAC address. In the DHCP allocation process, what is the destination MAC address of the Ethernet header that the host and the server use to send packets?",
+    "answers": [
+      {"id": 1, "answer": "00:00:00:00:00:00.", "correct": false},
+      {"id": 2, "answer": "01:02:03:04:05:06.", "correct": false},
+      {"id": 3, "answer": "0a:0b:0c:0d:0e:0f.", "correct": false},
+      {"id": 4, "answer": "ff:ff:ff:ff:ff:ff.", "correct": true}
+    ]
+  },
+  {
+    "id": 37,
+    "question": "A host sends a DHCP Discover request to acquire the network address and mask from a DHCP server with MAC address 01:02:03:04:05:06 and IP address 192.168.100.254. What is the destination address of the packet at the data-link layer (i.e., MAC address) and the network layer (i.e., IP address) that the host sends the packet to?",
+    "answers": [
+      {"id": 1, "answer": "MAC = 00:00:00:00:00:00, IP = 0.0.0.0.", "correct": false},
+      {"id": 2, "answer": "MAC = ff:ff:ff:ff:ff:ff, IP = 255.255.255.255.", "correct": true},
+      {"id": 3, "answer": "MAC = 01:02:03:04:05:06, IP = 192.168.100.254.", "correct": false},
+      {"id": 4, "answer": "MAC = ff:ff:ff:ff:ff:ff, IP = 192.168.100.254.", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "question": "If a LAN (Local Area Network) has two DHCP servers operating at the same time, what field of the DHCP packet header is used to distinguish to which server is a client talking to?",
+    "answers": [
+      {"id": 1, "answer": "Server IP address.", "correct": false},
+      {"id": 2, "answer": "Destination port.", "correct": false},
+      {"id": 3, "answer": "Transaction identifier.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "question": "When a host requests an IP address using DHCP, what is the message that it sends back to the DHCP server to confirm the address that the DHCP server has offered?",
+    "answers": [
+      {"id": 1, "answer": "Discover.", "correct": false},
+      {"id": 2, "answer": "Acknowledge.", "correct": false},
+      {"id": 3, "answer": "Confirm.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 40,
+    "question": "In addition to the IP address, what other information is provided by the DHCP server to ensure that the host can execute the ’ping google.com’ command and get a response?",
+    "answers": [
+      {"id": 1, "answer": "Only the network mask and the DNS servers.", "correct": false},
+      {"id": 2, "answer": "Only the network gateway and the network mask.", "correct": false},
+      {"id": 3, "answer": "Only the network gateway and the DNS servers.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Your computer has the following EUI-48 address: 1a:2b:3c:4d:5e:6f. If you are given the following IPv6 prefix 2000:abc::/32 in the dead subnet, what is the link-local address of your host?",
+    "answers": [
+      {"id": 1, "answer": "2000:abc:0:dead::/64.", "correct": false},
+      {"id": 2, "answer": "2000:abc:0:dead:1a2b:3cff:fe4d:5e6f/128.", "correct": true},
+      {"id": 3, "answer": "fe80::/8.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Your AS is assigned the IPv6 network prefix 2000:abc:def::/56. How many subnetworks (i.e., sites) can you have? How many hosts can each subnetwork have?",
+    "answers": [
+      {"id": 1, "answer": "256 networks, each containing 2^64 hosts.", "correct": true},
+      {"id": 2, "answer": "65536 networks, each containing 2^64 hosts.", "correct": false},
+      {"id": 3, "answer": "256 networks, each containing 2^32 hosts.", "correct": false},
+      {"id": 4, "answer": "65536 networks, each containing 2^64 hosts.", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "question": "In an IPv6 network, which protocol is used to match the IPv6 address and the physical address (i.e., MAC address) of a host to enable delivering frames locally?",
+    "answers": [
+      {"id": 1, "answer": "ARPv6.", "correct": false},
+      {"id": 2, "answer": "ICMPv6.", "correct": true},
+      {"id": 3, "answer": "DHCPv6.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Which of the following fields have been removed in the IPv6 header when compared to the IPv4 header? Do not consider IPv6 header extensions.",
+    "answers": [
+      {"id": 1, "answer": "Version.", "correct": false},
+      {"id": 2, "answer": "Fragment offset.", "correct": false},
+      {"id": 3, "answer": "Time to Live.", "correct": false},
+      {"id": 4, "answer": "Checksum.", "correct": true}
+    ]
+  },
+  {
+    "id": 45,
+    "question": "The size of an IPv6 address is:",
+    "answers": [
+      {"id": 1, "answer": "4 bytes.", "correct": false},
+      {"id": 2, "answer": "16 bytes.", "correct": true},
+      {"id": 3, "answer": "32 bytes.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "question": "You are given the following IPv6 address: 2001:0000:8489:0000:0000:0AAB:0038:0001. Which of the following is the correct short representation of the IPv6 address?",
+    "answers": [
+      {"id": 1, "answer": "2001:0:8489::0AAB::0038::0001.", "correct": false},
+      {"id": 2, "answer": "2001::8489:0:0:AAB:38::1.", "correct": true},
+      {"id": 3, "answer": "2001::8489::0AAB::38::1.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "question": "What are the two parts that form a global unique IPv6 address?",
+    "answers": [
+      {"id": 1, "answer": "Network prefix and Interface identifier.", "correct": true},
+      {"id": 2, "answer": "Global prefix and Subnet identifier.", "correct": false},
+      {"id": 3, "answer": "Subnet identifier and Network identifier.", "correct": false},
+      {"id": 4, "answer": "Network identifier and Host identifier.", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "question": "What prefix is used for IPv6 multicast addresses?",
+    "answers": [
+      {"id": 1, "answer": "2001::/10.", "correct": false},
+      {"id": 2, "answer": "FE00::/8.", "correct": false},
+      {"id": 3, "answer": "FF80::/10.", "correct": false},
+      {"id": 4, "answer": "FF00::/8.", "correct": true}
+    ]
+  },
+  {
+    "id": 49,
+    "question": "What is the IPv6 multicast address of All-nodes in link-local scope?",
+    "answers": [
+      {"id": 1, "answer": "FF01::1/128.", "correct": false},
+      {"id": 2, "answer": "FF01::2/128.", "correct": false},
+      {"id": 3, "answer": "FF02::1/128.", "correct": true},
+      {"id": 4, "answer": "FF02::2/128.", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Which of the following IPv6 network prefixes is used to send packets over a local network?",
+    "answers": [
+      {"id": 1, "answer": "2000::/3.", "correct": false},
+      {"id": 2, "answer": "FE80::/8.", "correct": true},
+      {"id": 3, "answer": "FF00::/8.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  }
+    ]
+}

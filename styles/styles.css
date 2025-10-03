@@ -1,0 +1,139 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}	
+
+#button button{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#options button{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#qna{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+#question{
+    text-align: center;
+}
+
+#result h3{
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#answers label, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#answers label{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 400px;
+}
+
+#counter{
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    font-size: 15px;
+}
+
+#counter h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#testMenu{
+    display: none;
+}
+
+#menu{
+    display: block;
+}
+
+#menu table{
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#menu tr{
+    text-align: center;
+}
+
+#finished{
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+}
+
+#finished button{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#popupBg{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#remind{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#questionImage{
+    display: none;
+    margin: auto;
+    width: 50%;
+}
+
+img	{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.5);
+    transform-origin: center center;
+    padding: 40px;
+}
+
+#tema2, #tema3, #tema4, #tema5, #tema6, #tema7, #tema8, #temaAll {
+    display: none;
+}    

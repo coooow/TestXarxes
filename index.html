@@ -6,13 +6,145 @@
     <title>test</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="./scripts.js" defer></script>
-    <script src="./converter.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 </head>
-<body>
-    <div id="main">
-        <h1>Input a .txt file below</h1>
-        <input type="file" id="fileInput" accept=".txt">
-        <button id="btnSubmit" onclick="">Submit</button>
+<body class="bg-zinc-300">
+    <div id="popupBg"></div>
+    <div id="menu">
+        <div id="title">
+            <h1 class="text-5xl font-bold p-5 py-10">Networks and Services Practice Test</h1>
+            <h2 class="text-3xl">Choose a topic below</h2>
+        </div>
+        <div id="options">
+            <table>
+                <tr>
+                    <td>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema1" onclick="selectTema(1)">Tema 1</button>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema2" onclick="selectTema(2)">Tema 2</button>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema3" onclick="selectTema(3)">Tema 3</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema4" onclick="selectTema(4)">Tema 4</button>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema5" onclick="selectTema(5)">Tema 5</button>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema6" onclick="selectTema(6)">Tema 6</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="tema7" onclick="selectTema(7)">Tema 7</button>
+                        <button
+                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                            id="temaAll" onclick="selectTema(8)">Tots els temes</button>
+                        <button class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                        id="tema7" onclick="selectTema(9)">
+                            Examen Final
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
+    <div id="testMenu">
+        <div class="text-5xl font-bold p-5 py-10" id="title">
+            <h1>Operating Systems Practice Test</h1>
+        </div>
+        <div id="counter">
+            <h2 class="text-2xl font-bold" id="counterTitle">Correct answer counter</h2>
+            <h2 class="text-2xl font-bold" id="counterText"></h2>
+        </div>
+        <div id="qna">
+            <table>
+                <tr>
+                    <td>
+                        <div class="text-3xl p-5 font-bold" id="question">
+                            <h2 id="questionText">Question</h2>
+                        </div>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="border-50 border-black rounded" id="questionImage">
+                            <img id="questionImg" src="" alt="Question Image">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="answers">
+                            <div id="answer1div">
+                                <input type="radio" name="answer" id="answer1">
+                                <label id="label1" for="answer1">Answer 1</label>
+                            </div>
+                            <div id="answer2div">
+                                <input type="radio" name="answer" id="answer2">
+                                <label id="label2" for="answer2">Answer 2</label>
+                            </div>
+                            <div id="answer3div">
+                                <input type="radio" name="answer" id="answer3">
+                                <label id="label3" for="answer3">Answer 3</label>
+                            </div>
+                            <div id="answer4div">
+                                <input type="radio" name="answer" id="answer4">
+                                <label id="label4" for="answer4">Answer 4</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="font-bold" id="result">
+            <h3 id="correct">Correct answer!</h3>
+            <h3 id="wrong">Wrong answer!</h3>
+        </div>
+        <div class="flex items-center justify-center hidden" id="remind">
+            <div class="w-96 p-2 bg-red-300 border-2 border-red-500 rounded">
+                <h2 class="font-bold text-2xl">Please answer the question before moving on!</h2>
+            </div>
+        </div>
+
+        <div id="finished">
+            <h2 class="text-2xl font-bold py-3" id="finishedText">You have finished the test!</h2>
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                id="backtoMenuFinished" onclick="tornarMenu()">Go back to menu</button>
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                id="retry" onclick="retry()">Retry the test</button>
+        </div>
+        <div id="button">
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                id="check" onclick="answer()">Submit</button>
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                id="next" onclick="nextQuestion()">Next Question</button>
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                id="unselect" onclick="unselect()">Uncheck an answer</button>
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                id="backtoMenu" onclick="tornarMenu()">Go back to menu</button>
+        </div>
+    </div>
+
 </body>
 </html>
