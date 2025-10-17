@@ -124,16 +124,16 @@ footer{
     display: none;
     margin: auto;
     width: 50%;
+    padding: 40px;
 }
 
 img	{
     width: 100%;
     height: 100%;
-    transform: scale(1.5);
+    transform: scale(2);
     transform-origin: center center;
-    padding: 40px;
 }
 
-#tema2, #tema3, #tema4, #tema5, #tema6, #tema7, #tema8, #temaAll {
+#tema3, #tema4, #tema5, #tema6, #tema7, #tema8, #temaAll {
     display: none;
 }    

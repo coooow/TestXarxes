@@ -100,11 +100,11 @@ function nextQuestion() {
 
         let n = Math.floor(Math.random() * temaFinalcopy.length);
         currentQuestion = temaFinalcopy.splice(n, 1)[0];
+    }
 
-        if(currentQuestion.imgfile != ""){
-            document.getElementById("questionImage").style.display = "block";
-            document.getElementById("questionImg").src = currentQuestion.imgfile;
-        }
+    if(currentQuestion.hasOwnProperty('imgfile') && currentQuestion.imgfile != ""){
+        document.getElementById("questionImage").style.display = "block";
+        document.getElementById("questionImg").src = currentQuestion.imgfile;
     }
 
     qTitle.innerHTML = currentQuestion.question;

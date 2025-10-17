@@ -501,5 +501,410 @@
       {"id": 4, "answer": "None of the above.", "correct": false}
     ]
   }
+    ],
+    "tema2":[
+  {
+    "id": 1,
+    "question": "What is the international organization that is responsible for assigning Internet resources (i.e., AS numbers and IP address ranges) world-wide?",
+    "answers": [
+      {"id": 1, "answer": "IANA.", "correct": true},
+      {"id": 2, "answer": "RIPE.", "correct": false},
+      {"id": 3, "answer": "IETF.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What routing protocol is used to interconnect Autonomous Systems (AS) on the Internet? What transport layer protocol and port does it use?",
+    "answers": [
+      {"id": 1, "answer": "BGP, TCP/53.", "correct": false},
+      {"id": 2, "answer": "BGP, UDP/179.", "correct": false},
+      {"id": 3, "answer": "OSPF, TCP/89.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "A company wishes to announce its own IP network prefix to the Internet using various service providers. What kind of IP address prefix does it have to request to the RIR? What connectivity model would it be best to ensure connectivity in case one of the service providers fail?",
+    "answers": [
+      {"id": 1, "answer": "PA, Stub.", "correct": false},
+      {"id": 2, "answer": "PI, IXP.", "correct": false},
+      {"id": 3, "answer": "PA, Multi-homed.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is the RIR in charge of providing Internet resources in North America?",
+    "answers": [
+      {"id": 1, "answer": "RIPE.", "correct": false},
+      {"id": 2, "answer": "ARIN.", "correct": true},
+      {"id": 3, "answer": "IANA.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "In a router, what plane is responsible to fill in the routing table based on the information provided by the network administrator or neighbour routers using routing protocols?",
+    "answers": [
+      {"id": 1, "answer": "Data plane.", "correct": false},
+      {"id": 2, "answer": "Control plane.", "correct": true},
+      {"id": 3, "answer": "Management plane.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is the algorithm executed in the router forwarding plane to determine which interface a packet has to be forwarded to based on its destination IP address?",
+    "answers": [
+      {"id": 1, "answer": "BGP.", "correct": false},
+      {"id": 2, "answer": "RIP.", "correct": false},
+      {"id": 3, "answer": "OSPF.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "In a router, for each destination network, which is the table that contains the addresses of the next hop (i.e., the address of the router to which the packets have to be forwarded to) and the exit interface of the packet?",
+    "answers": [
+      {"id": 1, "answer": "ARP table.", "correct": false},
+      {"id": 2, "answer": "Routing table.", "correct": true},
+      {"id": 3, "answer": "Cache table.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "For the same destination network, which of the following mechanisms to fill in the routing table has the smallest administrative distance and, thus, is preferred by the router, as it provides the most reliable information?",
+    "answers": [
+      {"id": 1, "answer": "Static entries.", "correct": false},
+      {"id": 2, "answer": "Directly connected interfaces.", "correct": true},
+      {"id": 3, "answer": "Routing protocols (i.e., RIP or BGP).", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which of the following routing protocol families are used for routing within an Autonomous System?",
+    "answers": [
+      {"id": 1, "answer": "BGP.", "correct": false},
+      {"id": 2, "answer": "EGP.", "correct": false},
+      {"id": 3, "answer": "IGP.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which of the following routing protocols is NOT an IGP (Interior Gateway Protocol) (although it can be used as one in certain scenarios)?",
+    "answers": [
+      {"id": 1, "answer": "RIP.", "correct": false},
+      {"id": 2, "answer": "OSPF.", "correct": false},
+      {"id": 3, "answer": "BGP.", "correct": true},
+      {"id": 4, "answer": "None, all mentioned protocols are IGPs.", "correct": false}
+    ]
+  },  
+  {
+    "id": 11,
+    "question": "What routing algorithm does RIP use to compute the best path between two given points in a network?",
+    "answers": [
+      {"id": 1, "answer": "Distance vector (Bellman-Ford).", "correct": true},
+      {"id": 2, "answer": "Link-state (Dijkstra).", "correct": false},
+      {"id": 3, "answer": "Path vector (Dijkstra).", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What transport layer protocol and source/destination port do RIP routers use to communicate?",
+    "answers": [
+      {"id": 1, "answer": "IP/TCP, port 520.", "correct": false},
+      {"id": 2, "answer": "IP/UDP, port 520.", "correct": true},
+      {"id": 3, "answer": "IP/ICMP, port 520.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What communication model do routers that execute RIPv1 use to communicate between them?",
+    "answers": [
+      {"id": 1, "answer": "Unicast.", "correct": false},
+      {"id": 2, "answer": "Multicast.", "correct": false},
+      {"id": 3, "answer": "Broadcast.", "correct": true},
+      {"id": 4, "answer": "Anycast.", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the main limitation of the RIP routing protocol when dealing with large networks?",
+    "answers": [
+      {"id": 1, "answer": "The network diameter is limited to 15 hops.", "correct": true},
+      {"id": 2, "answer": "It is prone to routing loops due to the slow convergence time.", "correct": false},
+      {"id": 3, "answer": "The metric (i.e., number of hops) cannot be changed.", "correct": false},
+      {"id": 4, "answer": "All the above answers are known limitations of RIP.", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the main benefit of RIPv2 when compared to RIPv1?",
+    "answers": [
+      {"id": 1, "answer": "It is no longer limited to a maximum number of hops (i.e., 15).", "correct": false},
+      {"id": 2, "answer": "It is no longer limited by the use of classful routing (i.e., class A, B or C).", "correct": true},
+      {"id": 3, "answer": "It is no longer limited by the default administrative distance (i.e., 120).", "correct": false},
+      {"id": 4, "answer": "All the above answers are correct.", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "The RIPv2 protocol supports neighbor authentication by:",
+    "answers": [
+      {"id": 1, "answer": "Setting the AFI field in the header to 0xFFFF.", "correct": true},
+      {"id": 2, "answer": "Setting the Command field in the header to 0xFFFF.", "correct": false},
+      {"id": 3, "answer": "Setting the Unused field in the header to 0xFFFF.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Which of the protection mechanisms introduced in RIPv2 to reduce convergence time and the chance of routing loops is based on the principle ’Not advertising routes through the same interface from which the router has learned them’?",
+    "answers": [
+      {"id": 1, "answer": "Posion reverse.", "correct": false},
+      {"id": 2, "answer": "Split horizon.", "correct": true},
+      {"id": 3, "answer": "Limited advertisement.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "With respect to RIPv1, that only supports classful routing, which field is added in the RIPv2 protocol header to support VLSM and CIDR?",
+    "answers": [
+      {"id": 1, "answer": "Next-hop address.", "correct": false},
+      {"id": 2, "answer": "Network mask.", "correct": true},
+      {"id": 3, "answer": "Network gateway.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Which RIP timer is used by the router to determine when to send routing updates to neighbor routers?",
+    "answers": [
+      {"id": 1, "answer": "Invalid timer.", "correct": false},
+      {"id": 2, "answer": "Flush timer.", "correct": false},
+      {"id": 3, "answer": "Holddown timer.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "OSPF (Open Shortest Path First) is an x routing protocol based on the principle of y routing using the z routing algorithm.",
+    "answers": [
+      {"id": 1, "answer": "x=interior, y= link-state, z=Bellman-Ford.", "correct": false},
+      {"id": 2, "answer": "x=exterior, y= link-state, z=Dijkstra.", "correct": false},
+      {"id": 3, "answer": "x=interior, y= distance-vector, z=Dijkstra.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+    {
+    "id": 21,
+    "question": "What transport layer protocol does OSPF use to communicate neighbor routers?",
+    "answers": [
+      {"id": 1, "answer": "OSPF uses UDP as the transport layer protocol.", "correct": false},
+      {"id": 2, "answer": "OSPF uses TCP as the transport layer protocol.", "correct": false},
+      {"id": 3, "answer": "OSPF uses ICMP as the transport layer protocol.", "correct": false},
+      {"id": 4, "answer": "None, OSPF is transported directly over IP using protocol 89.", "correct": true}
+    ]
+  },
+  {
+    "id": 22,
+    "question": "If a router learns two routes to the same destination network (i.e., 147.83.0.0/16), one via RIP and the other via OSPF, which one will become active in the routing table and will be used to forward packets?",
+    "answers": [
+      {"id": 1, "answer": "The router learned via RIP, as it has a higher administrative distance (120).", "correct": false},
+      {"id": 2, "answer": "The router learned via OSPF, as it has a smaller administrative distance (110).", "correct": true},
+      {"id": 3, "answer": "The router learned via RIP, since it has a smaller administrative distance (110).", "correct": false},
+      {"id": 4, "answer": "Both routes will become active, since the administrative distance is not used for such purpose.", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "question": "The metric that OSPF uses to determine which path between two networks is better than the other is based on...",
+    "answers": [
+      {"id": 1, "answer": "...the delay of the slowest link in the path between both networks.", "correct": false},
+      {"id": 2, "answer": "...the bandwidth of the fastest link in the path between both networks.", "correct": true},
+      {"id": 3, "answer": "...the number of hops (i.e., routers) in the path between both networks, as it is done in RIP.", "correct": false},
+      {"id": 4, "answer": "...a combination of the number of hops and the cost of each link in the path between both networks.", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "question": "An OSPF router has a RouterID = 1.1.1.1 that is unique. In which state is the OSPF state machine when a HELLO message is received from a neighbor router that contains the same RouterID (i.e., 1.1.1.1)?",
+    "answers": [
+      {"id": 1, "answer": "Init.", "correct": false},
+      {"id": 2, "answer": "Two-way.", "correct": false},
+      {"id": 3, "answer": "Exstart.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 25,
+    "question": "OSPF operates in a broadcast network (i.e., Ethernet) with 6 routers. Thanks to selecting a DR and a BDR router, how many adjacencies will these routers form?",
+    "answers": [
+      {"id": 1, "answer": "The routers will form 12 adjacencies.", "correct": false},
+      {"id": 2, "answer": "The routers will form 15 adjacencies.", "correct": false},
+      {"id": 3, "answer": "The routers will form 30 adjacencies.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 26,
+    "question": "In OSPF, which packet type is used by routers to send the missing content of the LSDB to neighbor routers?",
+    "answers": [
+      {"id": 1, "answer": "DD.", "correct": false},
+      {"id": 2, "answer": "LSR.", "correct": true},
+      {"id": 3, "answer": "LSU.", "correct": false},
+      {"id": 4, "answer": "LSAck.", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Which is of the following is a benefit of using OSPF with respect to RIP?",
+    "answers": [
+      {"id": 1, "answer": "It converges faster and better avoids creating routing loops since all routers have a complete view of the network topology.", "correct": false},
+      {"id": 2, "answer": "It no longer requires periodic updates between routers, only triggered updates upon topology changes (i.e. link or router failure).", "correct": false},
+      {"id": 3, "answer": "It is no longer limited by the maximum number of hops since all routers have a complete view of the network topology.", "correct": false},
+      {"id": 4, "answer": "All the above answers are benefits of OSPF with respect RIP.", "correct": true}
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Which routing protocol is used for routing between ASs? What is the routing principle that it is based upon?",
+    "answers": [
+      {"id": 1, "answer": "BGP, path vector.", "correct": true},
+      {"id": 2, "answer": "OSPF, link state.", "correct": false},
+      {"id": 3, "answer": "RIP, distance vector.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "question": "What is the metric that BGP uses to determine which is best path between two AS on the Internet?",
+    "answers": [
+      {"id": 1, "answer": "The delay.", "correct": false},
+      {"id": 2, "answer": "The available bandwidth.", "correct": false},
+      {"id": 3, "answer": "The packet loss.", "correct": false},
+      {"id": 4, "answer": "The path length.", "correct": true}
+    ]
+  },
+  {
+    "id": 30,
+    "question": "The BGP state machine has 6 states. In which state does BGP send an OPEN message and waits for the response of its peer?",
+    "answers": [
+      {"id": 1, "answer": "Connect.", "correct": false},
+      {"id": 2, "answer": "OpenSent.", "correct": true},
+      {"id": 3, "answer": "OpenConfirm.", "correct": false},
+      {"id": 4, "answer": "Established.", "correct": false}
+    ]
+  },
+    {
+    "id": 31,
+    "question": "When the connection between two BGP peers is established, which kind of message types do routers exchange to add new routes (i.e., advertise) or remove (i.e., withdraw) routers that are no longer available?",
+    "answers": [
+      {"id": 1, "answer": "Keepalive.", "correct": false},
+      {"id": 2, "answer": "Notification.", "correct": false},
+      {"id": 3, "answer": "Update.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "question": "What are the BGP attributes that all routers have to support, are always present, and are propagated globally?",
+    "answers": [
+      {"id": 1, "answer": "Well-known, mandatory.", "correct": true},
+      {"id": 2, "answer": "Well-known, discretionary.", "correct": false},
+      {"id": 3, "answer": "Optional, transitive.", "correct": false},
+      {"id": 4, "answer": "Optional, non-transitive.", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Which of the following BGP attributes is NOT a well-known and mandatory?",
+    "answers": [
+      {"id": 1, "answer": "AS-PATH.", "correct": false},
+      {"id": 2, "answer": "NEXT-HOP.", "correct": false},
+      {"id": 3, "answer": "ORIGIN.", "correct": false},
+      {"id": 4, "answer": "LOCAL-PREF.", "correct": true}
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Which of the following BGP attributes is a well-known and mandatory attribute, and includes the sequence of ASNs a network prefix is propagated through?",
+    "answers": [
+      {"id": 1, "answer": "NEXT-HOP.", "correct": false},
+      {"id": 2, "answer": "ORIGIN.", "correct": false},
+      {"id": 3, "answer": "LOCAL-PREF.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 35,
+    "question": "What field in the BGP open message header indicates how long a neighbor router can keep the BGP session open without receiving messages from its neighbor?",
+    "answers": [
+      {"id": 1, "answer": "Hold time.", "correct": true},
+      {"id": 2, "answer": "Keepalive time.", "correct": false},
+      {"id": 3, "answer": "Cooldown time.", "correct": false},
+      {"id": 4, "answer": "None of tha above.", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "question": "What kind of BGP attribute is the MED?",
+    "answers": [
+      {"id": 1, "answer": "Well-known, mandatory.", "correct": false},
+      {"id": 2, "answer": "Well-known, discretionary.", "correct": false},
+      {"id": 3, "answer": "Optional, transitive.", "correct": true},
+      {"id": 4, "answer": "Optional, non-transitive.", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Which mechanism based on public-key infrastructure has been implemented on Internet routers to validate the origin of the BGP announcements (i.e., AS number and IP network prefixes) and reduce the chances of prefix leaks and hijacking?",
+    "answers": [
+      {"id": 1, "answer": "RPKI.", "correct": true},
+      {"id": 2, "answer": "MANRS.", "correct": false},
+      {"id": 3, "answer": "LIDAR.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "question": "A router has the following entries in its routing table. If the router receives an IP packet with destination address 185.133.89.100, to which next-hop address and interface will it forward the packet to? Despite not being shown for simplicity, assume that the next-hop addresses and interfaces can be resolved by the router.",
+    "answers": [
+      {"id": 1, "answer": "Next-hop = 185.32.51.93%eth1.", "correct": false},
+      {"id": 2, "answer": "Next-hop = 34.160.111.234%eth2.", "correct": false},
+      {"id": 3, "answer": "Next-hop = 147.83.100.1%eth3.", "correct": true},
+      {"id": 4, "answer": "Next-hop = 158.32.1.20%eth4.", "correct": false}
+    ],
+    "imgfile": "./images/tema2ex38.png"
+  },
+  {
+    "id": 39,
+    "question": "A router has the following entries in its routing table. If the router receives an IP packet with destination address 185.132.89.144, to which next-hop address and interface will it forward the packet to? Despite not being shown for simplicity, assume that the next-hop addresses and interfaces can be resolved by the router.",
+    "answers": [
+      {"id": 1, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": true},
+      {"id": 2, "answer": "Next-hop = 147.83.100.1%eth0.", "correct": false},
+      {"id": 3, "answer": "Next-hop = 158.32.1.20%eth1.", "correct": false},
+      {"id": 4, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": true}
+    ],
+    "imgfile": "./images/tema2ex39.png"
+  },
+  {
+    "id": 40,
+    "question": "A router has the following entries in its routing table. If the router receives an IP packet with destination address 185.132.89.120, to which next-hop address and interface will it forward the packet to? Despite not being shown for simplicity, assume that the next-hop addresses and interfaces can be resolved by the router.",
+    "answers": [
+      {"id": 1, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": false},
+      {"id": 2, "answer": "Next-hop = 147.83.100.1%eth0.", "correct": true},
+      {"id": 3, "answer": "Next-hop = 158.32.1.20%eth1.", "correct": false},
+      {"id": 4, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": false}
+    ],
+    "imgfile": "./images/tema2ex40.png"
+  }
     ]
 }
