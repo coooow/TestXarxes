@@ -4,146 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Networks and Services</title>
-    <link rel="stylesheet" href="./styles/styles.css">
     <script src="./scripts.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
 </head>
-<body class="bg-zinc-300">
-    <div id="popupBg"></div>
-    <div id="menu">
-        <div id="title">
+<body class="bg-black text-white">
+    
+    <div id="popupBg" class="hidden fixed inset-0 bg-black/70 z-10"></div>
+
+    <div id="menu" class="p-4">
+        <div id="title" class="text-center">
             <h1 class="text-5xl font-bold p-5 py-10">Networks and Services Practice Test</h1>
-            <h2 class="text-3xl">Choose a topic below</h2>
+            <h2 class="text-3xl mb-8">Choose a topic below</h2>
         </div>
-        <div id="options">
-            <table>
-                <tr>
-                    <td>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema1" onclick="selectTema(1)">Tema 1</button>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema2" onclick="selectTema(2)">Tema 2</button>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema3" onclick="selectTema(3)">Tema 3</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema4" onclick="selectTema(4)">Tema 4</button>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema5" onclick="selectTema(5)">Tema 5</button>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema6" onclick="selectTema(6)">Tema 6</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="tema7" onclick="selectTema(7)">Tema 7</button>
-                        <button
-                            class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                            id="temaAll" onclick="selectTema(8)">Tots els temes</button>
-                        <button class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                        id="tema7" onclick="selectTema(9)">
-                            Examen Final
-                        </button>
-                    </td>
-                </tr>
-            </table>
+        <div id="options" class="w-full max-w-3xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <button
+                    class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema1" onclick="selectTema(1)">Tema 1</button>
+                <button
+                    class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema2" onclick="selectTema(2)">Tema 2</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema3" onclick="selectTema(3)">Tema 3</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema4" onclick="selectTema(4)">Tema 4</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema5" onclick="selectTema(5)">Tema 5</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema6" onclick="selectTema(6)">Tema 6</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="tema7" onclick="selectTema(7)">Tema 7</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="temaAll" onclick="selectTema(8)">Tots els temes</button>
+                <button
+                    class="hidden bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded p-4 text-xl font-semibold
+                    transition-all duration-100 active:translate-y-1 active:border-b-0"
+                    id="temaFinal" onclick="selectTema(9)">Examen Final</button>
+            </div>
         </div>
     </div>
-    <div id="testMenu">
-        <div class="text-5xl font-bold p-5 py-10" id="title">
-            <h1>Operating Systems Practice Test</h1>
+
+    <div id="testMenu" class="hidden h-screen min-h-screen flex flex-col relative">
+        
+        <div class="flex-shrink-0 text-center" id="title">
+            <h1 class="text-5xl font-bold p-5 pt-10">Networks and Services Practice Test</h1>
         </div>
-        <div id="counter">
+        <div id="counter" class="flex-shrink-0 text-center mb-4">
             <h2 class="text-2xl font-bold" id="counterTitle">Correct answer counter</h2>
-            <h2 class="text-2xl font-bold" id="counterText"></h2>
+            <h2 class="text-2xl font-bold" id="counterText">0/0</h2>
         </div>
-        <div id="qna">
-            <table>
-                <tr>
-                    <td>
-                        <div class="text-3xl p-5 font-bold" id="question">
-                            <h2 id="questionText">Question</h2>
-                        </div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="border-50 border-black rounded" id="questionImage">
-                            <img id="questionImg" src="" alt="Question Image">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div id="answers">
-                            <div id="answer1div">
-                                <input type="radio" name="answer" id="answer1">
-                                <label id="label1" for="answer1">Answer 1</label>
-                            </div>
-                            <div id="answer2div">
-                                <input type="radio" name="answer" id="answer2">
-                                <label id="label2" for="answer2">Answer 2</label>
-                            </div>
-                            <div id="answer3div">
-                                <input type="radio" name="answer" id="answer3">
-                                <label id="label3" for="answer3">Answer 3</label>
-                            </div>
-                            <div id="answer4div">
-                                <input type="radio" name="answer" id="answer4">
-                                <label id="label4" for="answer4">Answer 4</label>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="font-bold" id="result">
-            <h3 id="correct">Correct answer!</h3>
-            <h3 id="wrong">Wrong answer!</h3>
-        </div>
-        <div class="flex items-center justify-center hidden" id="remind">
-            <div class="w-96 p-2 bg-red-300 border-2 border-red-500 rounded">
-                <h2 class="font-bold text-2xl">Please answer the question before moving on!</h2>
+
+        <div id="qna" class="flex-grow overflow-y-auto min-h-0 w-full max-w-4xl mx-auto px-6 py-4">
+            
+            <div class="text-white text-2xl p-5 font-bold text-center" id="question">
+                <h2 id="questionText">Question</h2>
+            </div>
+            
+            <div class="hidden w-full max-w-lg mx-auto" id="questionImage">
+                <img id="questionImg" src="" alt="Question Image" class="w-full h-auto rounded-lg">
+            </div>
+            
+            <div id="answers" class="space-y-4 p-4">
+                <label id="answer1div" for="answer1"
+                    class="text-white p-4 border border-gray-700 rounded-lg hover:bg-gray-800 cursor-pointer flex items-center space-x-3">
+                    <input type="radio" name="answer" id="answer1" class="w-5 h-5">
+                    <span id="label1" class="text-lg">Answer 1</span>
+                </label>
+                <label id="answer2div" for="answer2"
+                    class="text-white p-4 border border-gray-700 rounded-lg hover:bg-gray-800 cursor-pointer flex items-center space-x-3">
+                    <input type="radio" name="answer" id="answer2" class="w-5 h-5">
+                    <span id="label2" class="text-lg">Answer 2</span>
+                </label>
+                <label id="answer3div" for="answer3"
+                    class="text-white p-4 border border-gray-700 rounded-lg hover:bg-gray-800 cursor-pointer flex items-center space-x-3">
+                    <input type="radio" name="answer" id="answer3" class="w-5 h-5">
+                    <span id="label3" class="text-lg">Answer 3</span>
+                </label>
+                <label id="answer4div" for="answer4"
+                    class="text-white p-4 border border-gray-700 rounded-lg hover:bg-gray-800 cursor-pointer flex items-center space-x-3">
+                    <input type="radio" name="answer" id="answer4" class="w-5 h-5">
+                    <span id="label4" class="text-lg">Answer 4</span>
+                </label>
             </div>
         </div>
 
-        <div id="finished">
-            <h2 class="text-2xl font-bold py-3" id="finishedText">You have finished the test!</h2>
-            <button
-                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                id="backtoMenuFinished" onclick="tornarMenu()">Go back to menu</button>
-            <button
-                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                id="retry" onclick="retry()">Retry the test</button>
+        <div class="flex-shrink-0 text-white font-bold text-center py-2" id="result">
+            <h3 id="correct" class="hidden text-green-400 text-2xl">Correct answer!</h3>
+            <h3 id="wrong" class="hidden text-red-400 text-2xl">Wrong answer!</h3>
         </div>
-        <div id="button">
+
+        <div id="button" class="flex-shrink-0 flex items-center justify-center flex-wrap gap-4 p-4 border-t border-gray-800">
             <button
-                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded px-6 py-2 text-lg font-semibold
+                transition-all duration-100 active:translate-y-1 active:border-b-0"
                 id="check" onclick="answer()">Submit</button>
             <button
-                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded px-6 py-2 text-lg font-semibold
+                transition-all duration-100 active:translate-y-1 active:border-b-0"
                 id="next" onclick="nextQuestion()">Next Question</button>
             <button
-                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
-                id="unselect" onclick="unselect()">Uncheck an answer</button>
+                class="bg-gray-600 hover:bg-gray-500 text-white border-b-4 border-gray-800 hover:border-gray-700 rounded px-6 py-2 text-lg font-semibold
+                transition-all duration-100 active:translate-y-1 active:border-b-0"
+                id="unselect" onclick="unselect()">Uncheck</button>
             <button
-                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded"
+                class="bg-red-700 hover:bg-red-600 text-white border-b-4 border-red-900 hover:border-red-800 rounded px-6 py-2 text-lg font-semibold
+                transition-all duration-100 active:translate-y-1 active:border-b-0"
                 id="backtoMenu" onclick="tornarMenu()">Go back to menu</button>
+        </div>
+    </div>
+
+
+    <div class="hidden fixed z-20 bottom-10 left-1/2 -translate-x-1/2" id="remind">
+        <div class="w-96 p-4 bg-red-300 border-2 border-red-500 rounded text-black shadow-lg">
+            <h2 class="font-bold text-2xl text-center">Please answer the question before moving on!</h2>
+        </div>
+    </div>
+
+    <div id="finished" class="hidden fixed z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white text-black p-8 rounded-lg shadow-lg text-center space-y-4">
+        <h2 class="text-3xl font-bold" id="finishedText">You have finished the test!</h2>
+        <div class="flex justify-center gap-4">
+            <button
+                class="bg-sky-800 hover:bg-sky-600 text-white border-b-4 border-sky-950 hover:border-sky-800 rounded px-6 py-2 text-lg font-semibold
+                transition-all duration-100 active:translate-y-1 active:border-b-0"
+                id="backtoMenuFinished" onclick="tornarMenu()">Go back to menu</button>
+            <button
+                class="bg-green-700 hover:bg-green-600 text-white border-b-4 border-green-900 hover:border-green-800 rounded px-6 py-2 text-lg font-semibold
+                transition-all duration-100 active:translate-y-1 active:border-b-0"
+                id="retry" onclick="retry()">Retry the test</button>
         </div>
     </div>
 
