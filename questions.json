@@ -906,5 +906,495 @@
     ],
     "imgfile": "./images/tema2ex40.png"
   }
+    ],
+    "tema3":[
+      [
+  {
+    "id": 1,
+    "question": "In a .......... network, the QoS is guaranteed because a path is established along the network before data transmission and resources are reserved.",
+    "answers": [
+      {"id": 1, "answer": "Packet switched.", "correct": false},
+      {"id": 2, "answer": "Circuit switched.", "correct": true},
+      {"id": 3, "answer": "Virtual private.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
     ]
+  },
+  {
+    "id": 2,
+    "question": "What quantitative mechanism is used to measure the perceived quality of a telecommunication service by users?",
+    "answers": [
+      {"id": 1, "answer": "QoS.", "correct": false},
+      {"id": 2, "answer": "QoE.", "correct": false},
+      {"id": 3, "answer": "MOS.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "The .......... is the variation of the arrival time between two consecutive packets.",
+    "answers": [
+      {"id": 1, "answer": "Packet rate.", "correct": false},
+      {"id": 2, "answer": "Packet loss.", "correct": false},
+      {"id": 3, "answer": "Packet delay.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "When transporting a real-time service (i.e., videoconference) over a packet switched network, a playback buffer is able to compensate for:",
+    "answers": [
+      {"id": 1, "answer": "Queueing delays.", "correct": false},
+      {"id": 2, "answer": "Transmission delays.", "correct": false},
+      {"id": 3, "answer": "Processing delays.", "correct": false},
+      {"id": 4, "answer": "All of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "When a network application transmits packets of the same size and at the same rate, we say that the application is of type:",
+    "answers": [
+      {"id": 1, "answer": "CBR.", "correct": true},
+      {"id": 2, "answer": "PBR.", "correct": false},
+      {"id": 3, "answer": "VBR.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What QoS mechanism used in packet switched networks is based on resource reservation?",
+    "answers": [
+      {"id": 1, "answer": "Best-effort.", "correct": false},
+      {"id": 2, "answer": "DiffServ.", "correct": false},
+      {"id": 3, "answer": "IntServ.", "correct": true},
+      {"id": 4, "answer": "All of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "In the IntServ model, what protocol is used to reserve resources along the path using PATH and RESV messages?",
+    "answers": [
+      {"id": 1, "answer": "VRRP.", "correct": false},
+      {"id": 2, "answer": "RSVP.", "correct": true},
+      {"id": 3, "answer": "DSCP.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What field of the IPv4 header is used in the DiffServ model to mark packets with QoS requirements?",
+    "answers": [
+      {"id": 1, "answer": "DSCP.", "correct": true},
+      {"id": 2, "answer": "ECN.", "correct": false},
+      {"id": 3, "answer": "TTL.", "correct": false},
+      {"id": 4, "answer": "None of the above, QoS on the Internet is marked at the Ethernet header.", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "In the DiffServ model, which of the following application types has more priority?",
+    "answers": [
+      {"id": 1, "answer": "Call signaling.", "correct": false},
+      {"id": 2, "answer": "Voice data.", "correct": true},
+      {"id": 3, "answer": "Streaming video.", "correct": false},
+      {"id": 4, "answer": "Routing protocols.", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What queue management mechanism is used by routers to randomly discard packets proportionally to the number of packets waiting in the queue?",
+    "answers": [
+      {"id": 1, "answer": "Tail drop.", "correct": false},
+      {"id": 2, "answer": "RED.", "correct": true},
+      {"id": 3, "answer": "CODEL.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question": "In a router, what is the name of the mechanism used to determine which queue has to be serviced next (i.e., transmit a packet from that queue)?",
+    "answers": [
+      {"id": 1, "answer": "Scheduler.", "correct": true},
+      {"id": 2, "answer": "Classifier.", "correct": false},
+      {"id": 3, "answer": "Policer.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How would you classify an application that can adapt to available bandwidth and is not sensitive to delay/jitter, but cannot tolerate packet loss? Give an example of such application.",
+    "answers": [
+      {"id": 1, "answer": "Elastic, file transfer.", "correct": true},
+      {"id": 2, "answer": "Inelastic, videoconference.", "correct": false},
+      {"id": 3, "answer": "Inelastic, file transfer.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is defined as the product between capacity and delay, also known as the BDP (Bandwidth-Delay Product)?",
+    "answers": [
+      {"id": 1, "answer": "Network power.", "correct": true},
+      {"id": 2, "answer": "Normalized load.", "correct": false},
+      {"id": 3, "answer": "Normalized throughput.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "In a router, what is the name of the mechanism used to determine which queue has to be serviced next?",
+    "answers": [
+      {"id": 1, "answer": "Scheduler.", "correct": true},
+      {"id": 2, "answer": "Classifier.", "correct": false},
+      {"id": 3, "answer": "Policer.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "When transporting a real-time service like a videoconference, what component is able to compensate for jitter and various network delays?",
+    "answers": [
+      {"id": 1, "answer": "A playback buffer.", "correct": true},
+      {"id": 2, "answer": "A VBR classifier.", "correct": false},
+      {"id": 3, "answer": "A DiffServ policer.", "correct": false},
+      {"id": 4, "answer": "A high-reliability transfer protocol.", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What is a VBR (Variable Bit Rate) application?",
+    "answers": [
+      {"id": 1, "answer": "An application where packets have different sizes and can be sent at different rates.", "correct": true},
+      {"id": 2, "answer": "An application that does not tolerate packet loss.", "correct": false},
+      {"id": 3, "answer": "An application that generates packets of the same size at the same rate.", "correct": false},
+      {"id": 4, "answer": "An application that requires a prior establishment of a circuit.", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Which of the following applications is considered \"inelastic,\" meaning it has strict requirements for delay and jitter but can tolerate some packet loss?",
+    "answers": [
+      {"id": 1, "answer": "E-mail.", "correct": false},
+      {"id": 2, "answer": "File transfer.", "correct": false},
+      {"id": 3, "answer": "Web access.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "A router in a DiffServ network receives a packet. First, it examines the packet’s DSCP field to sort it into a \"high priority\" queue. Next, it decides to send a packet from this queue before a packet in the \"low priority\" queue. What are these two mechanisms called, respectively?",
+    "answers": [
+      {"id": 1, "answer": "Scheduler, Policer.", "correct": false},
+      {"id": 2, "answer": "Policer, Classifier.", "correct": false},
+      {"id": 3, "answer": "Classifier, Scheduler.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is a fundamental scalability limitation of the IntServ (Integrated Services) model that the DiffServ (Differentiated Services) model was designed to solve?",
+    "answers": [
+      {"id": 1, "answer": "IntServ requires routers to maintain state and manage resource reservations (using RSVP) for every single application flow, which does not scale in a large network.", "correct": true},
+      {"id": 2, "answer": "IntServ only provides best-effort service and cannot guarantee QoS.", "correct": false},
+      {"id": 3, "answer": "IntServ cannot be used for inelastic applications like voice or video.", "correct": false},
+      {"id": 4, "answer": "IntServ uses the IPv4 header’s TTL field , while DiffServ uses the more efficient DSCP field.", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is the primary advantage of using the RED (Random Early Detection) queue management mechanism over Tail Drop?",
+    "answers": [
+      {"id": 1, "answer": "RED guarantees that no packets are ever dropped, while Tail Drop does.", "correct": false},
+      {"id": 2, "answer": "Tail Drop only drops packets when the queue is 100% full, causing many TCP flows to slow down simultaneously (global sync). RED starts randomly dropping packets before the queue is full to signal congestion more gracefully.", "correct": true},
+      {"id": 3, "answer": "RED prioritizes high-priority traffic (like voice) using DSCP, while Tail Drop is best-effort.", "correct": false},
+      {"id": 4, "answer": "Tail Drop drops packets from the front of the queue, while RED drops from the tail.", "correct": false}
+    ]
+  }
+    ]
+    ],
+    "tema4":[
+      
+  {
+    "id": 1,
+    "question": "A LAN has two routers working in parallel using VRRP to increase gateway availability. Router 1 has MTBF=100 hours and MTTR=5 hours, Router 2 has MTBF=1000 hours and MTTR=24 hours. What is the total availability of the system?",
+    "answers": [
+      {"id": 1, "answer": "A < 0.95", "correct": false},
+      {"id": 2, "answer": "0.95 ≤ A < 0.99", "correct": false},
+      {"id": 3, "answer": "0.99 ≤ A < 0.999", "correct": false},
+      {"id": 4, "answer": "A ≥ 0.999", "correct": true}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What type and IP address do VRRP routers use to determine which is the master and the backup router?",
+    "answers": [
+      {"id": 1, "answer": "Unicast, 224.0.0.18", "correct": false},
+      {"id": 2, "answer": "Multicast, 224.0.0.18", "correct": true},
+      {"id": 3, "answer": "Broadcast, 255.255.255.255", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the term that describes the time between two consecutive equipment failures?",
+    "answers": [
+      {"id": 1, "answer": "MTTR", "correct": false},
+      {"id": 2, "answer": "MTTF", "correct": false},
+      {"id": 3, "answer": "MTBF", "correct": true},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "A pair of VRRP routers is configured with VRID=200. What MAC address is used by VRRP routers to send packets?",
+    "answers": [
+      {"id": 1, "answer": "01:00:5e:00:00:64", "correct": false},
+      {"id": 2, "answer": "01:00:5e:00:00:c8", "correct": true},
+      {"id": 3, "answer": "ff:ff:ff:ff:ff:ff", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the default hello and hold timer for VRRP?",
+    "answers": [
+      {"id": 1, "answer": "Hello = 1 second, Hold = 2 seconds", "correct": true},
+      {"id": 2, "answer": "Hello = 1 second, Hold = 2 seconds", "correct": true},
+      {"id": 3, "answer": "Hello = 1 second, Hold = 2 seconds", "correct": true},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "An equipment has a measured downtime per year of 60 minutes. What is the availability level?",
+    "answers": [
+      {"id": 1, "answer": "A < 99%", "correct": false},
+      {"id": 2, "answer": "99 ≤ A < 99.9%", "correct": true},
+      {"id": 3, "answer": "99.9 ≤ A < 99.99%", "correct": false},
+      {"id": 4, "answer": "A ≥ 99.99%", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "During which period of equipment lifetime is the failure rate λ constant?",
+    "answers": [
+      {"id": 1, "answer": "Infant mortality", "correct": false},
+      {"id": 2, "answer": "Random failures", "correct": true},
+      {"id": 3, "answer": "Late mortality", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is NOT a routing protocol?",
+    "answers": [
+      {"id": 1, "answer": "RIP", "correct": false},
+      {"id": 2, "answer": "OSPF", "correct": false},
+      {"id": 3, "answer": "VRRP", "correct": true},
+      {"id": 4, "answer": "None, all are routing protocols", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What mechanism does a VRRP router use to advertise the IP/MAC pair of the virtual gateway to hosts?",
+    "answers": [
+      {"id": 1, "answer": "VRRP Advertisement messages", "correct": true},
+      {"id": 2, "answer": "DHCP Discover messages", "correct": false},
+      {"id": 3, "answer": "ARP Request messages", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is the priority of the default VRRP master?",
+    "answers": [
+      {"id": 1, "answer": "0", "correct": false},
+      {"id": 2, "answer": "254", "correct": false},
+      {"id": 3, "answer": "255", "correct": true},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question": "When the VRRP router with the highest priority becomes available after a failure, what is the operation mode of the protocol that allows a VRRP router with lower priority to continue acting as the VRRP master?",
+    "answers": [
+      {"id": 1, "answer": "Preemptive.", "correct": false},
+      {"id": 2, "answer": "Restrictive.", "correct": false},
+      {"id": 3, "answer": "Inhibiting.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which layer of the OSI model do firewalls primarily operate at?",
+    "answers": [
+      {"id": 1, "answer": "Physical layer.", "correct": false},
+      {"id": 2, "answer": "Data-link layer.", "correct": false},
+      {"id": 3, "answer": "Network layer.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which firewall type does not retain information about the state of network connections?",
+    "answers": [
+      {"id": 1, "answer": "Packet filter.", "correct": true},
+      {"id": 2, "answer": "Stateful firewall.", "correct": false},
+      {"id": 3, "answer": "Intrusion Detection System.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the device in charge of logging rejected packets entering or leaving the network?",
+    "answers": [
+      {"id": 1, "answer": "Router.", "correct": false},
+      {"id": 2, "answer": "Firewall.", "correct": true},
+      {"id": 3, "answer": "Switch.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Which is the firewall type that includes a state machine to track the status of connections passing through it to determine if a packet is allowed or not?",
+    "answers": [
+      {"id": 1, "answer": "Packet filter.", "correct": false},
+      {"id": 2, "answer": "Stateful firewall.", "correct": true},
+      {"id": 3, "answer": "Application firewall.", "correct": false},
+      {"id": 4, "answer": "Next-generation firewall.", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What is an application layer gateway for HTTP incoming traffic?",
+    "answers": [
+      {"id": 1, "answer": "Squid.", "correct": false},
+      {"id": 2, "answer": "NGINX.", "correct": true},
+      {"id": 3, "answer": "Apache.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "With respect to packet filters, which of the following sentences is incorrect when considering traffic logging?",
+    "answers": [
+      {"id": 1, "answer": "It can track the source and destination address of the packet.", "correct": false},
+      {"id": 2, "answer": "It can track the source and destination port of the packet.", "correct": false},
+      {"id": 3, "answer": "It can track the connection state of the packet.", "correct": true},
+      {"id": 4, "answer": "None of the above sentences is incorrect.", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Which difference is correct when comparing plain packet filters with stateful packet filters?",
+    "answers": [
+      {"id": 1, "answer": "The quality and quantity of the audit trail.", "correct": false},
+      {"id": 2, "answer": "The requirement to include rules for response traffic in the rule set.", "correct": true},
+      {"id": 3, "answer": "The session handling of HTTP sessions.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is/are the difference(s) between the white listing and the black listing approach of firewalls?",
+    "answers": [
+      {"id": 1, "answer": "The default behaviour if no other rule matches is different.", "correct": true},
+      {"id": 2, "answer": "They relate to different network interfaces of a firewall.", "correct": false},
+      {"id": 3, "answer": "The choice is very important for the performance of the firewall.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Which statement(s) is / are correct when describing the functionality of a packet filtering firewall?",
+    "answers": [
+      {"id": 1, "answer": "The order of filtering rules never makes a difference on the filter results.", "correct": false},
+      {"id": 2, "answer": "The order of filtering rules does make a difference on the filter results.", "correct": true},
+      {"id": 3, "answer": "The order of filtering rules only makes a difference on the filter results for rules which PASS traffic.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What types of information can be processed by a plain packet filtering firewall for deciding on whether traffic may pass the firewall or not?",
+    "answers": [
+      {"id": 1, "answer": "HTTP method used for an HTTP request (e.g. GET or POST)", "correct": false},
+      {"id": 2, "answer": "User name which is being used for an SSH connection.", "correct": false},
+      {"id": 3, "answer": "Source and destination port and address of a TCP communication.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What does the abbreviation “PAP” stand for?",
+    "answers": [
+      {"id": 1, "answer": "Packet Filter – Application Level Gateway – Packet Filter", "correct": false},
+      {"id": 2, "answer": "Packet Filter – Authentication – Packet Filter", "correct": false},
+      {"id": 3, "answer": "Pre-Filter – Authentication – Post-Filter", "correct": true},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What can the audit trail of a firewall be used for?",
+    "answers": [
+      {"id": 1, "answer": "Protecting the users that access the firewall to change its rules.", "correct": false},
+      {"id": 2, "answer": "Detecting MAC spoofing attacks in the Local Area Network.", "correct": false},
+      {"id": 3, "answer": "Monitoring legitimate traffic, which is of special interest in terms of security.", "correct": true},
+      {"id": 4, "answer": "All of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Which limitations are correct for a packet filtering firewall?",
+    "answers": [
+      {"id": 1, "answer": "No security for applications – once communication to an application is allowed, the application cannot be protected anymore.", "correct": false},
+      {"id": 2, "answer": "No analysis of traffic higher than TCP/IP layer 4.", "correct": false},
+      {"id": 3, "answer": "No checks of communication regarding its compliance to specifications.", "correct": false},
+      {"id": 4, "answer": "All of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Which properties are correct when describing the functionality of an application level gateway (ALG)?",
+    "answers": [
+      {"id": 1, "answer": "The ALG is a synonym for a packet filtering firewall.", "correct": false},
+      {"id": 2, "answer": "The ALG ensures that end-to-end communication between browser and server is never intercepted.", "correct": false},
+      {"id": 3, "answer": "An ALG is user independent – it never discriminates traffic based on the initiator.", "correct": false},
+      {"id": 4, "answer": "All of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Regarding Next Generation Firewalls, which of the following statements is false?",
+    "answers": [
+      {"id": 1, "answer": "Packet filters have no added value anymore since attackers know their functioning.", "correct": true},
+      {"id": 2, "answer": "More and more traffic is being communicated via HTTP(s) in the Internet.", "correct": false},
+      {"id": 3, "answer": "Static filter rules alone do not address the modern threat situation.", "correct": false},
+      {"id": 4, "answer": "All the statements are false.", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Given the ACL, who will be able to connect to the web server at 147.83.100.1 and retrieve a website?",
+    "answers": [
+      {"id": 1, "answer": "Yes, all hosts on the Internet will be able to access the web server.", "correct": false},
+      {"id": 2, "answer": "Yes, but only hosts originating from the 147.83.0.0/24 prefix.", "correct": false},
+      {"id": 3, "answer": "Yes, but only hosts using the UDP protocol to communicate with the web server.", "correct": false},
+      {"id": 4, "answer": "No, communication with the web server from the Internet will not be possible.", "correct": true}
+    ],
+    "imgfile": "./images/tema4activity27.png"
+  },
+  {
+    "id": 28,
+    "question": "Given the ACL, will host 147.83.0.1 receive the ICMP request from 83.100.10.1, and will the ICMP reply return?",
+    "answers": [
+      {"id": 1, "answer": "Yes, both the request and response will go through.", "correct": false},
+      {"id": 2, "answer": "Yes, the request is received but the response does not return.", "correct": false},
+      {"id": 3, "answer": "No, the request will not be received.", "correct": true},
+      {"id": 4, "answer": "It is impossible to determine from the ACL.", "correct": false}
+    ],
+    "imgfile": "./images/tema4activity28.png"
+  }
+]
+    
 }
