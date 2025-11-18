@@ -908,7 +908,7 @@
   }
     ],
     "tema3":[
-      [
+      
   {
     "id": 1,
     "question": "In a .......... network, the QoS is guaranteed because a path is established along the network before data transmission and resources are reserved.",
@@ -1109,7 +1109,7 @@
       {"id": 4, "answer": "Tail Drop drops packets from the front of the queue, while RED drops from the tail.", "correct": false}
     ]
   }
-    ]
+    
     ],
     "tema4":[
       
