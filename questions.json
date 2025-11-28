@@ -1395,6 +1395,559 @@
     ],
     "imgfile": "./images/tema4activity28.png"
   }
-]
-    
+    ],
+    "tema5":[
+  {
+    "id": 1,
+    "question": "Which DNS record type maps hostnames to IPv6 addresses?",
+    "answers": [
+      {"id": 1, "answer": "A.", "correct": false},
+      {"id": 2, "answer": "CNAME.", "correct": false},
+      {"id": 3, "answer": "PTR.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which transport layer protocol and port does the DNS service use?",
+    "answers": [
+      {"id": 1, "answer": "Only UDP, port 53.", "correct": false},
+      {"id": 2, "answer": "Only TCP, port 53.", "correct": false},
+      {"id": 3, "answer": "Both UDP and TCP, port 53.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which DNS query allows to retrieve the host and the domain name from an IP address?",
+    "answers": [
+      {"id": 1, "answer": "Standard DNS lookup.", "correct": false},
+      {"id": 2, "answer": "Forward DNS lookup.", "correct": false},
+      {"id": 3, "answer": "Reverse DNS lookup.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which DNS query is used to retrieve the host address (i.e., IPv4 or IPv6) of the DNS servers responsible for a given domain name?",
+    "answers": [
+      {"id": 1, "answer": "CNAME.", "correct": false},
+      {"id": 2, "answer": "MX.", "correct": false},
+      {"id": 3, "answer": "NS.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What international and non-profit organization is responsible for managing the DNS service worldwide?",
+    "answers": [
+      {"id": 1, "answer": "IETF.", "correct": false},
+      {"id": 2, "answer": "IANA.", "correct": true},
+      {"id": 3, "answer": "RIPE.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "question": "In which type of DNS query does the server return the IP address of the DNS server that it thinks can resolve the query?",
+    "answers": [
+      {"id": 1, "answer": "Iterative.", "correct": true},
+      {"id": 2, "answer": "Recursive.", "correct": false},
+      {"id": 3, "answer": "Repetitive.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "question": "How many different DNS root servers are deployed worldwide?",
+    "answers": [
+      {"id": 1, "answer": "1.", "correct": false},
+      {"id": 2, "answer": "12.", "correct": false},
+      {"id": 3, "answer": "13.", "correct": true},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "question": "In which kind of DNS query does the resolver only make one query to get the reply?",
+    "answers": [
+      {"id": 1, "answer": "Iterative.", "correct": false},
+      {"id": 2, "answer": "Recursive.", "correct": true},
+      {"id": 3, "answer": "Repetitive.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is the source of the DNS hierarchy?",
+    "answers": [
+      {"id": 1, "answer": "ccTLD.", "correct": false},
+      {"id": 2, "answer": "gTLD.", "correct": false},
+      {"id": 3, "answer": "SLD.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is the maximum length of a DNS label and of a full domain name?",
+    "answers": [
+      {"id": 1, "answer": "Label = 63 characters, Domain = 127 characters.", "correct": false},
+      {"id": 2, "answer": "Label = 63 characters, Domain = 255 characters.", "correct": true},
+      {"id": 3, "answer": "Label = 127 characters, Domain = 127 characters.", "correct": false},
+      {"id": 4, "answer": "Label = 127 characters, Domain = 255 characters.", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "question": "When performing a reverse DNS resolution for given IPv4 address (i.e., 147.83.1.1), what is the type of the request and the domain name used in the query?",
+    "answers": [
+      {"id": 1, "answer": "Type = A, 147.83.1.1.in-addr.arpa.", "correct": false},
+      {"id": 2, "answer": "Type = PTR, 1.1.83.147.in-addr.arpa.", "correct": true},
+      {"id": 3, "answer": "Type = PTR, 147.83.1.1.in-addr.arpa.", "correct": false},
+      {"id": 4, "answer": "Type = A, 1.1.83.147.in-addr.arpa.", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which DNS record type is used to specify the email server responsible for accepting email messages on behalf of a domain?",
+    "answers": [
+      {"id": 1, "answer": "NS", "correct": false},
+      {"id": 2, "answer": "SOA", "correct": false},
+      {"id": 3, "answer": "MX", "correct": true},
+      {"id": 4, "answer": "CNAME", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is the primary purpose of the TTL (Time To Live) field in a DNS record?",
+    "answers": [
+      {"id": 1, "answer": "It indicates the time it takes for a packet to reach the server", "correct": false},
+      {"id": 2, "answer": "It specifies how long a resolver or cache should store the record before discarding it", "correct": true},
+      {"id": 3, "answer": "It determines the maximum number of hops a DNS query can make", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Before the invention of DNS, name resolution was handled by a single text file stored locally on every computer. What is the name of this file?",
+    "answers": [
+      {"id": 1, "answer": "/etc/hosts", "correct": true},
+      {"id": 2, "answer": "resolv.conf", "correct": false},
+      {"id": 3, "answer": "named.conf", "correct": false},
+      {"id": 4, "answer": "root.hints", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "question": "While the 'A' record maps a hostname to an IPv4 address, which record explicitly maps a hostname to an IPv6 address?",
+    "answers": [
+      {"id": 1, "answer": "A6C", "correct": false},
+      {"id": 2, "answer": "AAAA", "correct": true},
+      {"id": 3, "answer": "IP6", "correct": false},
+      {"id": 4, "answer": "QUAD-A", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Which of the following refers to a domain name that specifies its exact location in the tree hierarchy of the DNS, usually ending with a dot (e.g., www.google.com.)?",
+    "answers": [
+      {"id": 1, "answer": "Relative Domain Name", "correct": false},
+      {"id": 2, "answer": "Fully Qualified Domain Name", "correct": true},
+      {"id": 3, "answer": "Top Level Domain", "correct": false},
+      {"id": 4, "answer": "Root Domain Name", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "question": "In the domain name tecnocampus.cat, what type of Top Level Domain (TLD) is .cat?",
+    "answers": [
+      {"id": 1, "answer": "gTLD", "correct": true},
+      {"id": 2, "answer": "iTLD", "correct": false},
+      {"id": 3, "answer": "ccTLD", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Although DNS primarily uses UDP, in which specific scenario is the TCP protocol explicitly required?",
+    "answers": [
+      {"id": 1, "answer": "When performing a standard recursive query", "correct": false},
+      {"id": 2, "answer": "When performing a Zone Transfer (AXFR) between servers", "correct": true},
+      {"id": 3, "answer": "When the client is using a mobile network", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Which DNS record type contains administrative information about the zone, such as the email address of the administrator, the serial number, and refresh intervals?",
+    "answers": [
+      {"id": 1, "answer": "NS (Name Server)", "correct": false},
+      {"id": 2, "answer": "PTR (Pointer)", "correct": false},
+      {"id": 3, "answer": "SOA (Start of Authority)", "correct": true},
+      {"id": 4, "answer": "TXT (Text)", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "question": "If a user queries a local DNS server for nonexistent.tecnocampus.cat and the domain does not exist, what response code does the server return?",
+    "answers": [
+      {"id": 1, "answer": "NXDOMAIN", "correct": true},
+      {"id": 2, "answer": "SERVFAIL", "correct": false},
+      {"id": 3, "answer": "NOERROR", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Which DNS extension provides cryptographic authentication of data to ensure that DNS records have not been forged or manipulated?",
+    "answers": [
+      {"id": 1, "answer": "DNSSEC", "correct": true},
+      {"id": 2, "answer": "DNSCRYPT", "correct": false},
+      {"id": 3, "answer": "SSL", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Which of the following describes the \"Anycast\" routing technique used by Root DNS servers?",
+    "answers": [
+      {"id": 1, "answer": "A single server handles all requests worldwide", "correct": false},
+      {"id": 2, "answer": "Requests are sent to all 13 root servers simultaneously", "correct": false},
+      {"id": 3, "answer": "Multiple servers share the same IP address, and the network routes the query to the geographically closest server", "correct": true},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "question": "If you want to create an alias for an existing domain name (e.g., making ftp.example.com point to www.example.com), which record type should you use?",
+    "answers": [
+      {"id": 1, "answer": "A or AAA, depending on if you use IPv4 or IPv6", "correct": false},
+      {"id": 2, "answer": "CNAME", "correct": true},
+      {"id": 3, "answer": "NS", "correct": false},
+      {"id": 4, "answer": "ALIAS", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "question": "In the context of a DNS header, what is the function of the \"Recursion Desired\" (RD) flag?",
+    "answers": [
+      {"id": 1, "answer": "It tells the server to accept any DNS query, regardless of the query type (i.e., recursive or iterative)", "correct": false},
+      {"id": 2, "answer": "It instructs the server to query other servers if it does not have the answer in its cache", "correct": true},
+      {"id": 3, "answer": "It indicates that the response is from an authoritative source", "correct": false},
+      {"id": 4, "answer": "None of the above", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What differentiates an authoritative name server from a recursive resolver?",
+    "answers": [
+      {"id": 1, "answer": "The authoritative server holds the actual DNS records for a domain, while the recursive resolver looks up the data for the client", "correct": true},
+      {"id": 2, "answer": "The recursive resolver holds the actual records, while the authoritative server asks questions", "correct": false},
+      {"id": 3, "answer": "Authoritative servers only use TCP; recursive resolvers only use UDP", "correct": false},
+      {"id": 4, "answer": "There is no difference; they are synonyms", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Which file on a GNU/Linux system is typically used to configure the IP addresses of the recursive DNS servers (resolvers) that the system should use?",
+    "answers": [
+      {"id": 1, "answer": "/etc/hosts", "correct": false},
+      {"id": 2, "answer": "/etc/bind/named.conf", "correct": false},
+      {"id": 3, "answer": "/etc/resolv.conf", "correct": true},
+      {"id": 4, "answer": "/etc/nsswitch.conf", "correct": false}
+    ]
+  }
+    ],
+    "tema6":[
+  {
+    "id": 1,
+    "question": "Which is the version of the HTTP protocol that uses persistent connections by default?",
+    "answers": [
+      { "id": 1, "answer": "HTTP/1.0", "correct": false },
+      { "id": 2, "answer": "HTTP/1.1", "correct": true },
+      { "id": 3, "answer": "HTTP/2.0", "correct": false },
+      { "id": 4, "answer": "All of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the name of the first line of the HTTP request message?",
+    "answers": [
+      { "id": 1, "answer": "Request line.", "correct": true },
+      { "id": 2, "answer": "Header line.", "correct": false },
+      { "id": 3, "answer": "Status line.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What HTTP method leaves the body of the message empty?",
+    "answers": [
+      { "id": 1, "answer": "POST", "correct": false },
+      { "id": 2, "answer": "PUT.", "correct": false },
+      { "id": 3, "answer": "GET.", "correct": true },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Regarding the conditional GET mechanism, which of the following sentences is not correct?",
+    "answers": [
+      { "id": 1, "answer": "It imposes conditions on the objects to be requested.", "correct": false },
+      { "id": 2, "answer": "It limits the number of response from a server.", "correct": true },
+      { "id": 3, "answer": "It helps to keep a cache upto date.", "correct": false },
+      { "id": 4, "answer": "None of the above sentences is correct.", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is present in both an HTTP request line and a HΤΤΡ status line?",
+    "answers": [
+      { "id": 1, "answer": "HTTP version number.", "correct": true },
+      { "id": 2, "answer": "URI.", "correct": false },
+      { "id": 3, "answer": "Method.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What field of the URI indicates which client/server program to used in order to retrieve a document?",
+    "answers": [
+      { "id": 1, "answer": "Protocol.", "correct": true },
+      { "id": 2, "answer": "Path.", "correct": false },
+      { "id": 3, "answer": "Host.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the markup language used to create web pages?",
+    "answers": [
+      { "id": 1, "answer": "ΗΤΤΡ.", "correct": false },
+      { "id": 2, "answer": "HTML.", "correct": true },
+      { "id": 3, "answer": "XML.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What kind of mechanism does the HTTP protocol use to transport information between the client and the server (and viceversa)?",
+    "answers": [
+      { "id": 1, "answer": "Text.", "correct": true },
+      { "id": 2, "answer": "Hybrid.", "correct": false },
+      { "id": 3, "answer": "Binary data.", "correct": false },
+      { "id": 4, "answer": "Depends on the kind of data that it has to transmit.", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "In the context of an HTTP transaction using basic access authentication (i.e., using the Authorization: Basic <credentials> header, where <credencials> is <user: password>, why is Base64 used to transmit the credentials string (i.e., <user: password>)?",
+    "answers": [
+      { "id": 1, "answer": "It is used for data encryption, ensuring that user credentials cannot be captured despite the fact that HTTP transmits data in plain text.", "correct": false },
+      { "id": 2, "answer": "It is used for data authentication, ensuring that user credentials are transmitted from a computer that is trusted despite the fact taht HTTP transmits data in plain text.", "correct": false },
+      { "id": 3, "answer": "It used for data encoding, ensuring that non-HTTP compatible characters in the user and password are transmitted as HTTP-compatible characters.", "correct": true },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which of the following connection types requires one TCP connection for each interaction (i.e., request/response) with the HTTP server?",
+    "answers": [
+      { "id": 1, "answer": "Persistant.", "correct": false },
+      { "id": 2, "answer": "Non-persitant.", "correct": true },
+      { "id": 3, "answer": "Hybrid.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "An HTTP request message always contains:",
+    "answers": [
+      { "id": 1, "answer": "A header and a body.", "correct": false },
+      { "id": 2, "answer": "A header and a request line.", "correct": true },
+      { "id": 3, "answer": "A header, a status line and a body.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is the protocol and the default port for an HTTPS connection?",
+    "answers": [
+      { "id": 1, "answer": "TCP, port 80.", "correct": false },
+      { "id": 2, "answer": "UDP, port 80.", "correct": false },
+      { "id": 3, "answer": "UDP, port 443.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": true }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is the international non-profit organization responsible for standardizing the HTTP protocol?",
+    "answers": [
+      { "id": 1, "answer": "IETF.", "correct": true },
+      { "id": 2, "answer": "IEEE", "correct": false },
+      { "id": 3, "answer": "W3C.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Which of the following HTTP methods was not supported by HTTP/1.0?",
+    "answers": [
+      { "id": 1, "answer": "DELETE.", "correct": true },
+      { "id": 2, "answer": "GET.", "correct": false },
+      { "id": 3, "answer": "POST.", "correct": false },
+      { "id": 4, "answer": "HEAD.", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the status code used by HTTP to indicate server-side errors to the client?",
+    "answers": [
+      { "id": 1, "answer": "1XX.", "correct": false },
+      { "id": 2, "answer": "2XX.", "correct": false },
+      { "id": 3, "answer": "4XX.", "correct": false },
+      { "id": 4, "answer": "5XX.", "correct": true }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "The following text \"TecnoCampus\" is encoded using UTF-8 (i.e., 8 bits/character). What is the resulting Base64-encoded representation of the text when sent over an HTTP response?",
+    "answers": [
+      { "id": 1, "answer": "The resulting Base64-encoded string is \"dGVjbm9jYW1wdXм\".", "correct": false },
+      { "id": 2, "answer": "The resulting Base64-encoded string is \"VGVjbm9DYW1wdXM\".", "correct": false },
+      { "id": 3, "answer": "The resulting Base64-encoded string is \"dGVjbm9jYW1wdXM=\".", "correct": false },
+      { "id": 4, "answer": "The resulting Base64-encoded string is \"VGVjbm9DYW1wdXM=\".", "correct": true }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "When using Base64 to encode a binary file (i.e., an image) the resulting text occupies more space than the original file. Assuming the binary file occupies 300 bytes, what is size of the resulting text and the expansion rate (i.e., the resulting number of bytes divided by the original number of bytes) of Base64 encoding?",
+    "answers": [
+      { "id": 1, "answer": "The resulting text occupies 300 bytes, which corresponds to an expansion rate of 25%.", "correct": false },
+      { "id": 2, "answer": "The resulting text occupies 300 bytes, which corresponds to an expansion rate of 33%.", "correct": false },
+      { "id": 3, "answer": "The resulting text occupies 400 bytes, which corresponds to an expansion rate of 33%.", "correct": false },
+      { "id": 4, "answer": "The resulting text occupies 400 bytes, which corresponds to an expansion rate of 133%.", "correct": true }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What HTTP request headers are involved to implement conditional GETS, which only return the content of a file if it has been modified compared to the one in the client cache?",
+    "answers": [
+      { "id": 1, "answer": "Cookie.", "correct": false },
+      { "id": 2, "answer": "Content-Type.", "correct": false },
+      { "id": 3, "answer": "User-Agent.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": true }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is the main benefit introduced by QUIC, which is the base of HTTP/3?",
+    "answers": [
+      { "id": 1, "answer": "At the transport layer it is implemented on top of TCP, which allows for faster connection setup and lower transport latency.", "correct": false },
+      { "id": 2, "answer": "At the transport layer it is implemented on top of UDP, which allows to implement enhanced request multiplexing and congestion control.", "correct": true },
+      { "id": 3, "answer": "At the transport layer it is implemented on top of TCP, which allows to implement enhanced request multiplexing and congestion control.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "In the process of fetching a web page from a server, how many RTTs does the HTTP request/response process take?",
+    "answers": [
+      { "id": 1, "answer": "1 RTT.", "correct": false },
+      { "id": 2, "answer": "2 RTTS.", "correct": true },
+      { "id": 3, "answer": "3 RTTS.", "correct": false },
+      { "id": 4, "answer": "4 or more RTTs.", "correct": false }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Complete the following sentence with the missing words: \"In FTP there are three different ... : stream, block and compressed\".",
+    "answers": [
+      { "id": 1, "answer": "File types.", "correct": false },
+      { "id": 2, "answer": "Data types.", "correct": false },
+      { "id": 3, "answer": "Transmission modes.", "correct": true },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "In FTP, two connections are established between the client and the server, one for connection control and one for data transfer. Which of the connections is persistent? To which port is the connection established to?",
+    "answers": [
+      { "id": 1, "answer": "Persistent, to port $TCP/21$.", "correct": true },
+      { "id": 2, "answer": "Non-persistent, to port TCP/20.", "correct": false },
+      { "id": 3, "answer": "Persistent, to port $TCP/20$", "correct": false },
+      { "id": 4, "answer": "Non-persistent, to port $TCP/21$.", "correct": false }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "In FTP, two connection modes are available: active and passive. In which connection mode does the FTP server wait for the client to indicate which IP and port to connect to for the data transfer? To which port does the server connect from?",
+    "answers": [
+      { "id": 1, "answer": "Active, from port 20.", "correct": true },
+      { "id": 2, "answer": "Passive, from port 20.", "correct": false },
+      { "id": 3, "answer": "Active, from port 21.", "correct": false },
+      { "id": 4, "answer": "Passive, from port 21.", "correct": false }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Which transport layer does the FTP protocol used to send data between the client and the server?",
+    "answers": [
+      { "id": 1, "answer": "TCP.", "correct": true },
+      { "id": 2, "answer": "UDP.", "correct": false },
+      { "id": 3, "answer": "IP.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "In FTP, whcih range of response phase codes is used indicate positive completion?",
+    "answers": [
+      { "id": 1, "answer": "1XX.", "correct": false },
+      { "id": 2, "answer": "2XX.", "correct": true },
+      { "id": 3, "answer": "3XX.", "correct": false },
+      { "id": 4, "answer": "4XX.", "correct": false }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "In FTP, which command is used to navigate to a different directory on the remote server?",
+    "answers": [
+      { "id": 1, "answer": "cd.", "correct": true },
+      { "id": 2, "answer": "move.", "correct": false },
+      { "id": 3, "answer": "chdir.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "In FTP, what is the command used to upload a file from a client to a remote server?",
+    "answers": [
+      { "id": 1, "answer": "put.", "correct": true },
+      { "id": 2, "answer": "get.", "correct": false },
+      { "id": 3, "answer": "open.", "correct": false },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "In FTP, what is the purpose of the ASCII transfer mode?",
+    "answers": [
+      { "id": 1, "answer": "To allow encyrpting the data to provide security.", "correct": false },
+      { "id": 2, "answer": "To compress files and improve data transfer speeds.", "correct": false },
+      { "id": 3, "answer": "To transfer text files and perform newline conversions.", "correct": true },
+      { "id": 4, "answer": "None of the above.", "correct": false }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Which of the following sentences regarding the FTP protocol is correct?",
+    "answers": [
+      { "id": 1, "answer": "The FTP protocol uses UDP at the transport layer.", "correct": false },
+      { "id": 2, "answer": "The FTP protocol uses in-band signaling for control.", "correct": false },
+      { "id": 3, "answer": "The FTP protocol the data connection is persistent.", "correct": false },
+      { "id": 4, "answer": "None of the sentences is correct.", "correct": true }
+    ]
+  }
+    ]  
 }
