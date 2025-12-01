@@ -850,7 +850,7 @@
       {"id": 1, "answer": "Hold time.", "correct": true},
       {"id": 2, "answer": "Keepalive time.", "correct": false},
       {"id": 3, "answer": "Cooldown time.", "correct": false},
-      {"id": 4, "answer": "None of tha above.", "correct": false}
+      {"id": 4, "answer": "None of the above.", "correct": false}
     ]
   },
   {
@@ -900,9 +900,9 @@
     "question": "A router has the following entries in its routing table. If the router receives an IP packet with destination address 185.132.89.120, to which next-hop address and interface will it forward the packet to? Despite not being shown for simplicity, assume that the next-hop addresses and interfaces can be resolved by the router.",
     "answers": [
       {"id": 1, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": false},
-      {"id": 2, "answer": "Next-hop = 147.83.100.1%eth0.", "correct": true},
+      {"id": 2, "answer": "Next-hop = 147.83.100.1%eth0.", "correct": false},
       {"id": 3, "answer": "Next-hop = 158.32.1.20%eth1.", "correct": false},
-      {"id": 4, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": false}
+      {"id": 4, "answer": "Next-hop = 185.32.51.93%eth2.", "correct": true}
     ],
     "imgfile": "./images/tema2ex40.png"
   }
