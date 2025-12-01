@@ -878,8 +878,8 @@
     "question": "A router has the following entries in its routing table. If the router receives an IP packet with destination address 185.133.89.100, to which next-hop address and interface will it forward the packet to? Despite not being shown for simplicity, assume that the next-hop addresses and interfaces can be resolved by the router.",
     "answers": [
       {"id": 1, "answer": "Next-hop = 185.32.51.93%eth1.", "correct": false},
-      {"id": 2, "answer": "Next-hop = 34.160.111.234%eth2.", "correct": false},
-      {"id": 3, "answer": "Next-hop = 147.83.100.1%eth3.", "correct": true},
+      {"id": 2, "answer": "Next-hop = 34.160.111.234%eth2.", "correct": true},
+      {"id": 3, "answer": "Next-hop = 147.83.100.1%eth3.", "correct": false},
       {"id": 4, "answer": "Next-hop = 158.32.1.20%eth4.", "correct": false}
     ],
     "imgfile": "./images/tema2ex38.png"
