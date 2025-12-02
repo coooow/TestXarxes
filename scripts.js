@@ -16,6 +16,7 @@ var temaAll = [];
 var temaAllcopy = [];
 var temaFinal = [];
 var temaFinalcopy = [];
+var j = [0, 1, 2, 3];
 
 const menu = document.getElementById("menu");
 const testMenu = document.getElementById("testMenu");
@@ -32,7 +33,7 @@ var answered = true;
 // Load questions from JSON file
 
 function nextQuestion() {
-    if(!answered){
+    if (!answered) {
         remindOpen();
         return;
     }
@@ -109,14 +110,15 @@ function nextQuestion() {
         currentQuestion = temaFinalcopy.splice(n, 1)[0];
     }
 
-    if(currentQuestion.hasOwnProperty('imgfile') && currentQuestion.imgfile != ""){
+    if (currentQuestion.hasOwnProperty('imgfile') && currentQuestion.imgfile != "") {
         document.getElementById("questionImage").style.display = "block";
         document.getElementById("questionImg").src = currentQuestion.imgfile;
     }
 
     qTitle.innerHTML = currentQuestion.question;
+    j.sort(() => Math.random() - 0.5);
     for (let i = 1; i < 5; i++) {
-        let answer = currentQuestion.answers[i - 1].answer;
+        let answer = currentQuestion.answers[j[i - 1]].answer;
         let a = document.getElementById("label" + i);
         a.innerHTML = answer;
     }
@@ -156,7 +158,7 @@ function answer() {
 
     for (let i = 0; i < 4; i++) {
         if (i === selectedAnswer) {
-            if (currentQuestion.answers[i].correct) {
+            if (currentQuestion.answers[j[i]].correct) {
                 correct.classList.remove("hidden");
                 if (firstAnswer) {
                     var count = document.getElementById("counterText");
@@ -235,7 +237,7 @@ function isChecked() {
     for (let i = 1; i < 5; i++) {
         let answer = document.getElementById("answer" + i);
         if (answer.checked) {
-            selectedAnswer = i-1;
+            selectedAnswer = i - 1;
             break;
         }
     }
@@ -260,19 +262,19 @@ function retry() {
     firstAnswer = true;
 }
 
-function remindOpen(){
+function remindOpen() {
     var clase = document.getElementById("remind").className;
     clase = clase.replace("hidden", "visible");
     document.getElementById("remind").className = clase;
 }
 
-function remindClose(){
+function remindClose() {
     var clase = document.getElementById("remind").className;
     clase = clase.replace("visible", "hidden");
     document.getElementById("remind").className = clase;
 }
 
-function resetImg(){
+function resetImg() {
     document.getElementById("questionImage").style.display = "none";
     document.getElementById("questionImg").src = "";
 }
