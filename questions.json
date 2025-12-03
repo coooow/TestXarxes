@@ -456,9 +456,9 @@
     "question": "You are given the following IPv6 address: 2001:0000:8489:0000:0000:0AAB:0038:0001. Which of the following is the correct short representation of the IPv6 address?",
     "answers": [
       {"id": 1, "answer": "2001:0:8489::0AAB::0038::0001.", "correct": false},
-      {"id": 2, "answer": "2001::8489:0:0:AAB:38::1.", "correct": true},
+      {"id": 2, "answer": "2001::8489:0:0:AAB:38::1.", "correct": false},
       {"id": 3, "answer": "2001::8489::0AAB::38::1.", "correct": false},
-      {"id": 4, "answer": "None of the above.", "correct": false}
+      {"id": 4, "answer": "None of the above.", "correct": true}
     ]
   },
   {
