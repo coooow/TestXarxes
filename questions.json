@@ -1197,9 +1197,9 @@
     "id": 9,
     "question": "What mechanism does a VRRP router use to advertise the IP/MAC pair of the virtual gateway to hosts?",
     "answers": [
-      {"id": 1, "answer": "VRRP Advertisement messages", "correct": true},
+      {"id": 1, "answer": "VRRP Advertisement messages", "correct": false},
       {"id": 2, "answer": "DHCP Discover messages", "correct": false},
-      {"id": 3, "answer": "ARP Request messages", "correct": false},
+      {"id": 3, "answer": "ARP Request messages", "correct": true},
       {"id": 4, "answer": "None of the above", "correct": false}
     ]
   },
@@ -1219,8 +1219,8 @@
     "answers": [
       {"id": 1, "answer": "Preemptive.", "correct": false},
       {"id": 2, "answer": "Restrictive.", "correct": false},
-      {"id": 3, "answer": "Inhibiting.", "correct": true},
-      {"id": 4, "answer": "None of the above.", "correct": false}
+      {"id": 3, "answer": "Inhibiting.", "correct": false},
+      {"id": 4, "answer": "None of the above.", "correct": true}
     ]
   },
   {
@@ -1442,9 +1442,9 @@
     "question": "What international and non-profit organization is responsible for managing the DNS service worldwide?",
     "answers": [
       {"id": 1, "answer": "IETF.", "correct": false},
-      {"id": 2, "answer": "IANA.", "correct": true},
+      {"id": 2, "answer": "IANA.", "correct": false},
       {"id": 3, "answer": "RIPE.", "correct": false},
-      {"id": 4, "answer": "None of the above.", "correct": false}
+      {"id": 4, "answer": "None of the above.", "correct": true}
     ]
   },
   {
