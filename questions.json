@@ -758,8 +758,8 @@
     "question": "In OSPF, which packet type is used by routers to send the missing content of the LSDB to neighbor routers?",
     "answers": [
       {"id": 1, "answer": "DD.", "correct": false},
-      {"id": 2, "answer": "LSR.", "correct": true},
-      {"id": 3, "answer": "LSU.", "correct": false},
+      {"id": 2, "answer": "LSR.", "correct": false},
+      {"id": 3, "answer": "LSU.", "correct": true},
       {"id": 4, "answer": "LSAck.", "correct": false}
     ]
   },
@@ -1360,7 +1360,7 @@
       {"id": 1, "answer": "The ALG is a synonym for a packet filtering firewall.", "correct": false},
       {"id": 2, "answer": "The ALG ensures that end-to-end communication between browser and server is never intercepted.", "correct": false},
       {"id": 3, "answer": "An ALG is user independent – it never discriminates traffic based on the initiator.", "correct": false},
-      {"id": 4, "answer": "All of the above.", "correct": false}
+      {"id": 4, "answer": "None of the above.", "correct": true}
     ]
   },
   {
