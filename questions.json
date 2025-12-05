@@ -859,8 +859,8 @@
     "answers": [
       {"id": 1, "answer": "Well-known, mandatory.", "correct": false},
       {"id": 2, "answer": "Well-known, discretionary.", "correct": false},
-      {"id": 3, "answer": "Optional, transitive.", "correct": true},
-      {"id": 4, "answer": "Optional, non-transitive.", "correct": false}
+      {"id": 3, "answer": "Optional, transitive.", "correct": false},
+      {"id": 4, "answer": "Optional, non-transitive.", "correct": true}
     ]
   },
   {
