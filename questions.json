@@ -637,10 +637,10 @@
     "id": 14,
     "question": "What is the main limitation of the RIP routing protocol when dealing with large networks?",
     "answers": [
-      {"id": 1, "answer": "The network diameter is limited to 15 hops.", "correct": true},
+      {"id": 1, "answer": "The network diameter is limited to 15 hops.", "correct": false},
       {"id": 2, "answer": "It is prone to routing loops due to the slow convergence time.", "correct": false},
       {"id": 3, "answer": "The metric (i.e., number of hops) cannot be changed.", "correct": false},
-      {"id": 4, "answer": "All the above answers are known limitations of RIP.", "correct": false}
+      {"id": 4, "answer": "All the above answers are known limitations of RIP.", "correct": true}
     ]
   },
   {
@@ -994,9 +994,9 @@
     "question": "In the DiffServ model, which of the following application types has more priority?",
     "answers": [
       {"id": 1, "answer": "Call signaling.", "correct": false},
-      {"id": 2, "answer": "Voice data.", "correct": true},
+      {"id": 2, "answer": "Voice data.", "correct": false},
       {"id": 3, "answer": "Streaming video.", "correct": false},
-      {"id": 4, "answer": "Routing protocols.", "correct": false}
+      {"id": 4, "answer": "Routing protocols.", "correct": true}
     ]
   },
   {
