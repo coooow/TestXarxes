@@ -1119,8 +1119,8 @@
     "answers": [
       {"id": 1, "answer": "A < 0.95", "correct": false},
       {"id": 2, "answer": "0.95 ≤ A < 0.99", "correct": false},
-      {"id": 3, "answer": "0.99 ≤ A < 0.999", "correct": false},
-      {"id": 4, "answer": "A ≥ 0.999", "correct": true}
+      {"id": 3, "answer": "0.99 ≤ A < 0.999", "correct": true},
+      {"id": 4, "answer": "A ≥ 0.999", "correct": false}
     ]
   },
   {
