@@ -24,6 +24,7 @@ const finishedPopup = document.getElementById("finished");
 const popupBg = document.getElementById("popupBg");
 const correct = document.getElementById("correct");
 const wrong = document.getElementById("wrong");
+const footer = document.getElementById("footer");
 
 let currentQuestion;
 var selectedTema;
@@ -212,6 +213,7 @@ function selectTema(tema) {
     selectedTema = tema;
     testMenu.classList.remove("hidden");
     menu.classList.add("hidden");
+    footer.classList.add("hidden");
     resetQuestions();
     nextQuestion();
     answered = false;
@@ -222,6 +224,7 @@ function tornarMenu() {
     finishedPopup.classList.add("hidden");
     popupBg.classList.add("hidden");
     menu.classList.remove("hidden");
+    footer.classList.remove("hidden");
     resetCounter();
     remindClose();
     answered = true;
